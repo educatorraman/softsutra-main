@@ -1,0 +1,222 @@
+{
+  "finance": {
+    "appKey": "calculator",
+    "kicker": "Personal finance · Tax & loan planning",
+    "title": "How to read an EMI, a GST split and a loan quote without surprises",
+    "intro": "A loan quote or an invoice can look settled and still hide a dozen assumptions. Rate, compounding method, fee treatment, tax inclusivity and rounding all change the final amount. The finance guides below explain the mechanics in plain language so you can ask better questions before you sign, pay or file.",
+    "sections": [
+      {
+        "heading": "Why decimal precision changes the answer",
+        "paragraphs": [
+          "Binary floating point was designed for scientific computation, not for money. A value such as 0.1 cannot be represented exactly in binary, so repeated multiplication can create a one-paisa gap that grows across sixty instalments. A decimal engine stores 11800.00 as a base-ten quantity and rounds only once, using a documented half-up rule. That matters when you are splitting a tax component or reconciling a bank statement.",
+          "The preview above uses the same rule: principal, annual rate and tenure enter an exact reducing-balance formula, and the result is rounded to two decimals. If the rate is zero, the calculator divides the principal evenly rather than attempting an impossible exponent. Check the assumptions printed beside any result before treating it as a quotation."
+        ]
+      },
+      {
+        "heading": "Reading an EMI beyond the monthly number",
+        "paragraphs": [
+          "EMI is not a fixed price for money. It is the instalment that repays both principal and interest over a chosen term, with interest recalculated on the outstanding balance each month. A longer term lowers the monthly outflow but usually increases total interest substantially. Move the tenure slider in the preview and watch the interest column, not just the EMI.",
+          "Lenders may add processing fees, insurance, documentation charges or a different day-count convention. Some quotes use an annual rate divided by twelve; others apply a reducing-balance method that behaves differently. Ask for an amortisation schedule and compare the total payable figure, not the advertised rate alone."
+        ],
+        "bullets": [
+          "Confirm whether the quoted rate is flat or reducing balance.",
+          "Ask whether fees are financed into the loan or paid upfront.",
+          "Compare total interest across at least two tenures.",
+          "Keep one month of EMI as a cash buffer before committing."
+        ]
+      },
+      {
+        "heading": "GST: inclusive or exclusive changes everything",
+        "paragraphs": [
+          "An inclusive price already contains tax. To find the taxable value, divide the price by one plus the tax rate; the difference is the tax. An exclusive price adds tax on top of the printed amount. Confusing the two produces a wrong invoice, which is why the preview asks you to choose the mode before showing CGST, SGST or IGST.",
+          "Within a state, the tax is usually split equally into CGST and SGST. Inter-state supplies use IGST. Rates and exemptions vary by category and by state, and input tax credit rules add another layer for businesses. Use the calculation as a checking tool, then verify against the current official rate notification."
+        ]
+      },
+      {
+        "heading": "A practical pre-borrowing checklist",
+        "paragraphs": [
+          "Before accepting a loan, write down the sanctioned amount, disbursed amount, rate, reset schedule, tenure and every fee. Recalculate the EMI with those inputs and compare it with your own monthly surplus, not your gross salary. If the payment consumes more than you can comfortably absorb after essential spending and an emergency contribution, a smaller loan or longer discussion with the lender is wiser than optimism.",
+          "For invoices, keep a habit of checking the taxable value, tax component and final total separately. A clean check today prevents a reconciliation call next month."
+        ]
+      }
+    ],
+    "conclusion": "Calculators accelerate arithmetic; they do not replace judgement. Treat every result as a transparent estimate, confirm the assumptions with a qualified professional for material decisions, and save the inputs so you can reproduce the number later.",
+    "wordCount": 470
+  },
+  "privacy": {
+    "appKey": "cafe",
+    "kicker": "Data privacy · Encryption & secure documents",
+    "title": "A safer way to hand documents to a cyber café",
+    "intro": "A shared computer is a useful thing and a risky place. The risk is rarely the shopkeeper; it is the chain of temporary files, browser sessions, unlabelled USB drives and forgotten downloads that sits between you and the completed form. Better preparation removes most of that chain.",
+    "sections": [
+      {
+        "heading": "Why the USB handoff is the weakest link",
+        "paragraphs": [
+          "A pen drive changes hands, pockets and machines. It can carry an autorun payload into a shared PC, and it can carry a forgotten scan away to the next customer. Even when nobody intends harm, files are copied to a desktop, opened with a default viewer and left in a downloads folder. The document itself becomes a small leak that nobody notices until much later.",
+          "A link-based transfer narrows the surface. The customer keeps control of the original file, the shop sees only what the form requires, and the transfer can be protected by a one-time code and an expiry window. The key is to treat the link as a delivery mechanism, not as a public dump of every file you own."
+        ]
+      },
+      {
+        "heading": "What a trustworthy transfer actually does",
+        "paragraphs": [
+          "Look for four properties. First, a clear identity gate: a phone-based one-time code or equivalent check before a shop can open a record. Second, transport protection: HTTPS and signed upload requests so a file cannot be silently redirected to an unauthorised bucket. Third, minimisation: only the documents named in the checklist are requested. Fourth, an audit trail: timestamps, item status and version history so both sides can agree on what was received.",
+          "SoftSutra Cafe is built around those properties. Its wizard autosaves into local IndexedDB, files are compressed before upload, an outbox retries when connectivity returns, and presigned uploads are validated for type and size. Rate limits and bot checks protect the endpoints. OTP delivery still depends on the operator configuring a provider, so ask the café how codes are delivered before relying on the flow."
+        ],
+        "bullets": [
+          "Use original documents only where an original is explicitly required.",
+          "Send compressed copies for routine uploads; keep the original at home.",
+          "Check that the file name contains no unnecessary personal details.",
+          "Agree on a deletion time for temporary copies."
+        ]
+      },
+      {
+        "heading": "Preparing without oversharing",
+        "paragraphs": [
+          "Before you leave home, make a checklist: identity proof, address proof, a recent photograph, form fields saved as plain text, and any category-specific certificate. Verify that each scan shows all four corners and readable text. A single unreadable image can turn a ten-minute job into three visits.",
+          "Do not place Aadhaar number, full card details, bank PINs or OTPs into a general message. If a portal asks for a one-time password, read it yourself and enter it directly; never hand it to someone else. Where a form asks for a parent, spouse or guardian relationship, fill the exact field rather than sending a family document that contains unrelated information."
+        ]
+      },
+      {
+        "heading": "Shared-machine hygiene",
+        "paragraphs": [
+          "When the work is finished, sign out of every portal, clear the browser downloads for the session and ask the shop how long their records are retained. A café that takes privacy seriously will have a clear answer. If the answer is vague, take your business elsewhere or use your own device for the sensitive parts.",
+          "Digital transfer is not a promise of perfect security. It is a way to replace many uncontrolled copies with a smaller number of deliberate, logged steps. Preparation is what makes that difference real."
+        ]
+      }
+    ],
+    "conclusion": "Treat every document as someone else's identity in your hands. Send the minimum, use the gate, confirm the checklist, and close the session. Those four habits prevent more loss than any single piece of software.",
+    "wordCount": 480
+  },
+  "exam": {
+    "appKey": "exam",
+    "kicker": "Exam strategy · EdTech & career preparation",
+    "title": "How to turn daily mock tests into a score you can trust",
+    "intro": "Mock tests are easy to collect and hard to use well. A score without a review ritual tells you almost nothing. The method below focuses on pattern, feedback and correction, whether you are preparing for SSC, UPSC, JEE, NEET, a state service exam or a teaching eligibility test.",
+    "sections": [
+      {
+        "heading": "Practice the pattern, not just the syllabus",
+        "paragraphs": [
+          "Two candidates can study the same chapters and perform very differently because one has practised the actual decision load of the exam. Section tabs, a question palette and a countdown change how you allocate attention. Regular timed sets teach you which questions deserve the first pass and which should be marked for review.",
+          "SoftSutra Exam organises practice into 90 daily sets across national and state registries. A day-wise structure helps because it turns preparation into a routine rather than a mood. Use the current pattern for your target exam and remember that historical sets are practice material, not a guarantee of the live paper."
+        ]
+      },
+      {
+        "heading": "Use the full control set",
+        "paragraphs": [
+          "The Previous, Doubt, Skip, Clear and Next controls are not cosmetic. Doubt marks a question you understand but cannot finish. Skip means you have not read it properly yet. Clear erases a tentative mark so you do not carry a wrong anchor into the second pass. A disciplined first pass in a timed CBT usually answers the confident questions quickly, reserves the calculation-heavy ones, and leaves enough time for a clean review.",
+          "The rough pad matters too. Keeping calculations beside the question reduces working-memory load. Review your rough work when you check the solution; many errors are transcription mistakes rather than conceptual gaps."
+        ],
+        "bullets": [
+          "Attempt a timed set at the same hour as your real exam where possible.",
+          "Use Doubt sparingly; an over-marked paper is just an unfinished paper.",
+          "Reserve the last few minutes for answer-sheet verification, not new problems.",
+          "Record one pattern of error per session, such as sign, unit or fact recall."
+        ]
+      },
+      {
+        "heading": "Negative marking rewards restraint",
+        "paragraphs": [
+          "Fractional penalties change expected value. If a correct answer carries one mark and a wrong answer costs one-third, four random guesses with one correct answer roughly break even. That is a poor use of time compared with a careful elimination. For patterns with larger deductions, guessing is even harder to justify.",
+          "Build a personal rule: attempt only when you can eliminate at least two options or when a solved step supports the answer. The scorecard and step-by-step solutions are more valuable than the rank number, because they show where the rule was broken."
+        ]
+      },
+      {
+        "heading": "From scorecard to study plan",
+        "paragraphs": [
+          "After each test, sort mistakes into three buckets: concept unknown, concept known but misapplied, and execution slip. Assign a different action to each bucket. Unknown concepts need a source and a short practice block. Misapplied concepts need comparison examples. Execution slips need a routine, such as reading units twice or writing the given values before calculating.",
+          "Progress tiers and points can keep motivation visible, but they are not the goal. The goal is a shrinking error list. Repeat a weak topic after two days, then again after a week. Spaced return is more reliable than another full test taken immediately."
+        ]
+      }
+    ],
+    "conclusion": "A mock test is a measurement instrument. Use the same pattern, use the controls deliberately, review the reasons behind every wrong answer and change one behaviour at a time. That is how a practice score becomes a dependable signal.",
+    "wordCount": 475
+  },
+  "broadband": {
+    "appKey": "speed",
+    "kicker": "Broadband · Fiber diagnostics & network optimisation",
+    "title": "What a speed test really measures, and how to test like a professional",
+    "intro": "A single large number is a weak description of a connection. Video calls care about latency and jitter, downloads care about sustained throughput, and gaming cares about what happens when the link is busy. Understanding each measurement helps you separate a plan problem from a Wi-Fi problem.",
+    "sections": [
+      {
+        "heading": "Throughput is not one number",
+        "paragraphs": [
+          "Download throughput depends on the slowest segment between the server and your device: the fiber line, the router, the Wi-Fi link and the receiver all matter. Multi-stream tests use several parallel connections because a single stream often stops short of the available capacity. Reporting a high percentile rather than a brief peak prevents an optimistic first second from inflating the result.",
+          "Mbps and MB/s describe the same transfer in different units. Eight megabits make one megabyte, so a 100 Mbps connection can theoretically move about 12.5 MB per second before overhead. Seeing both figures makes a file-download estimate much easier to judge."
+        ]
+      },
+      {
+        "heading": "Ping, jitter and bufferbloat",
+        "paragraphs": [
+          "Ping is the round-trip time of a small packet. Jitter is how much that time changes between samples. A connection with low average ping but high jitter can still produce choppy voice and stuttering interactive traffic.",
+          "Bufferbloat appears when a router queues too much data during a download or upload. The link is busy, so packets wait, and latency jumps. A useful test samples ping during load and compares it with the idle value. A small delta indicates good queue management; a large delta explains why a call breaks while somebody else streams video. Grade scales are a guide, not an absolute quality certificate."
+        ],
+        "bullets": [
+          "Test near the router once to establish a wired baseline.",
+          "Test in the normal usage room to measure the Wi-Fi segment.",
+          "Repeat at two different times of day before blaming the provider.",
+          "Pause cloud backups and updates during a diagnostic run."
+        ]
+      },
+      {
+        "heading": "Local benchmarks deserve context",
+        "paragraphs": [
+          "Hyper-local comparisons can be useful because ISP routing and neighbourhood contention vary. A geohash sector groups nearby results without publishing an exact address. Even so, compare like with like: the same access technology, similar time of day and a similar device. A tower average built from mobile data should not be used to judge a fixed fiber line.",
+          "ISP and ASN labels normalise brand names, but routing can cross networks. Treat the operator field as context, not proof of ownership for every hop."
+        ]
+      },
+      {
+        "heading": "A repeatable test routine",
+        "paragraphs": [
+          "Run a quick latency preview whenever something feels off. If the result is abnormal, run the full three-phase test with the same device in the same location. Note the download, upload, idle ping and loaded ping together. Export or save the result so you can show a pattern across days instead of a single bad moment.",
+          "If wired results are strong but Wi-Fi results are weak, look at placement, band selection and interference before replacing the router. If both are weak at the same hours, the issue is more likely upstream. Evidence gathered this way turns a support call into a specific request."
+        ]
+      }
+    ],
+    "conclusion": "Measure the property that matches the problem. Throughput answers how fast data moves, jitter answers how steady the path feels, and loaded latency answers whether the connection stays responsive under pressure. Together they give a picture one number never can.",
+    "wordCount": 465
+  },
+  "wellness": {
+    "appKey": "jap",
+    "kicker": "Digital wellness · Focus & distraction-free media",
+    "title": "Designing a calmer digital ritual: repetition, music and attention",
+    "intro": "Digital tools are often blamed for fragmented attention, but the tool is only half the story. A repeated action with a clear boundary can be steadying, and music without interruption can support deep work. The trick is to make the ritual intentional rather than letting an interface decide for you.",
+    "sections": [
+      {
+        "heading": "Why a repeated count can feel grounding",
+        "paragraphs": [
+          "A mala count gives attention somewhere simple to rest. Each bead is a small, complete action, and the cycle has a visible end. That combination of rhythm and closure is useful when the mind is pulled in several directions. A digital counter preserves the rhythm while removing the need to manage beads, which helps when you are travelling or practising quietly.",
+          "Keep the interface modest. A large count, a clear bead indicator and a gentle completion signal are enough. Extra charts, streaks or social comparisons can turn a calming practice into another scoreboard. The full Jap app keeps history for continuity but puts the bead ring first."
+        ]
+      },
+      {
+        "heading": "Why low-ad media matters",
+        "paragraphs": [
+          "Interruptions are costly because the mind needs time to return to the task after each break. A player that inserts a break at every transition changes the texture of the work, even when each interruption is short. Low-ad listening is not about removing every commercial message from the internet; it is about placing them where they do not sever a session.",
+          "SoftSutra Music is designed around uninterrupted playback, crossfade between tracks, a sleep timer and lock-screen controls. Its offline vault helps when a network would otherwise force a buffering pause. If you study with audio, choose a playlist once, start it, and resist the urge to browse while it plays."
+        ],
+        "bullets": [
+          "Pick the playlist before the work block starts.",
+          "Use a sleep timer if listening continues after the task ends.",
+          "Keep a separate quiet playlist for reading and writing.",
+          "Let lock-screen controls handle playback instead of reopening the app."
+        ]
+      },
+      {
+        "heading": "A repeatable focus ritual",
+        "paragraphs": [
+          "Start with a two-minute reset: clear the desk surface, open only the tool you need and write the single outcome for the next block. If your practice includes a mantra count, set the mala size and begin without checking messages. If it includes music, press play once and keep the device out of reach.",
+          "End with a short close. Note the completed cycles or the page you reached, then stop. A defined ending protects the next block from the fatigue that comes when work bleeds indefinitely into the evening."
+        ]
+      },
+      {
+        "heading": "Wellness without perfection",
+        "paragraphs": [
+          "Missed days are normal. A counter that records total jap rather than shaming a broken streak is healthier than a rigid chain that encourages guilt-driven catch-up. Similarly, a media app should support stopping as easily as starting. The aim is a tool that leaves you more composed than it found you.",
+          "Digital wellness is mostly design: fewer decisions, fewer interruptions and a clear finish line. Choose tools that respect those limits, then let the ritual do its work."
+        ]
+      }
+    ],
+    "conclusion": "Attention is not a resource to be squeezed harder; it is a rhythm to protect. Use repetition for steadiness, use music for continuity, and keep the interface quiet enough that the habit remains yours.",
+    "wordCount": 462
+  }
+}

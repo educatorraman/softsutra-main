@@ -1,0 +1,36 @@
+{
+  "en": {
+    "nav_home": "Home",
+    "nav_apps": "Ecosystem",
+    "nav_guides": "Guides",
+    "nav_about": "About",
+    "nav_contact": "Contact",
+    "hero_badge": "Privacy-first · Offline-ready · Six connected apps",
+    "hero_title": "One ecosystem. Six sharper ways to get things done.",
+    "hero_sub": "SoftSutra builds fast, browser-native tools for exams, daily finance, network diagnostics, spiritual practice, focused listening and secure document transfer. Use them free, offline where it matters, on the active parent domain you trust.",
+    "explore_apps": "Explore the ecosystem",
+    "read_guides": "Read the guides",
+    "live_preview": "Live preview",
+    "open_full_app": "Open full app",
+    "trusted_by": "Built for students, families, professionals and cyber cafés",
+    "theme_label": "Change colour theme",
+    "language_label": "Switch language"
+  },
+  "hi": {
+    "nav_home": "होम",
+    "nav_apps": "इकोसिस्टम",
+    "nav_guides": "मार्गदर्शिकाएँ",
+    "nav_about": "परिचय",
+    "nav_contact": "संपर्क",
+    "hero_badge": "गोपनीयता-प्रथम · ऑफ़लाइन तैयार · छह जुड़े ऐप्स",
+    "hero_title": "एक इकोसिस्टम। काम करने के छह बेहतर तरीके।",
+    "hero_sub": "SoftSutra परीक्षा, दैनिक वित्त, नेटवर्क जाँच, आध्यात्मिक अभ्यास, फोकस्ड संगीत और सुरक्षित दस्तावेज़ ट्रांसफ़र के लिए तेज़ ब्राउज़र-आधारित टूल बनाता है। सभी टूल मुफ़्त हैं और ज़रूरत के अनुसार ऑफ़लाइन भी काम करते हैं।",
+    "explore_apps": "इकोसिस्टम देखें",
+    "read_guides": "मार्गदर्शिकाएँ पढ़ें",
+    "live_preview": "लाइव प्रीव्यू",
+    "open_full_app": "पूरा ऐप खोलें",
+    "trusted_by": "विद्यार्थियों, परिवारों, पेशेवरों और साइबर कैफ़े के लिए",
+    "theme_label": "रंग थीम बदलें",
+    "language_label": "भाषा बदलें"
+  }
+}

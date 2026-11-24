@@ -1,0 +1,112 @@
+{
+  "calculator": [
+    {
+      "question": "Why does the preview use decimal.js instead of JavaScript numbers for money?",
+      "answer": "Decimal arithmetic stores values in base ten and applies half-up rounding once at the end. Binary floating point can introduce tiny representation errors that become visible after compounding or tax splits, so it is unsuitable for currency."
+    },
+    {
+      "question": "Is the EMI shown here the amount my bank will charge?",
+      "answer": "It is a mathematically correct estimate for the principal, rate and tenure you entered. Banks may add processing fees, insurance or use a different day-count convention. Always request an official amortisation schedule before signing."
+    },
+    {
+      "question": "What is the difference between inclusive and exclusive GST?",
+      "answer": "An inclusive price already contains tax, so the taxable value is price divided by one plus the rate. An exclusive price has tax added on top. Choosing the wrong mode changes both the tax component and the final total."
+    },
+    {
+      "question": "Does the preview save my loan inputs?",
+      "answer": "Yes. Inputs are stored in IndexedDB on your device so a refresh does not erase them. You can clear them by removing site data for SoftSutra in your browser settings."
+    },
+    {
+      "question": "Can I rely on the land area estimate for a property deed?",
+      "answer": "No. Area tools use the dimensions you supply and documented geometric formulas. They are useful for a quick check, but a registered survey and legal documentation are required for property transactions."
+    }
+  ],
+  "cafe": [
+    {
+      "question": "What problem does the Cafe portal solve?",
+      "answer": "It replaces a physical pen drive handoff with a structured link, an identity gate and a checklist. The customer controls the original documents, and the café sees only the requested items."
+    },
+    {
+      "question": "Are my documents encrypted during transfer?",
+      "answer": "Transfers use HTTPS and signed upload requests that validate file type and size. The portal does not claim end-to-end encryption, so use original sensitive documents only when a service explicitly requires them."
+    },
+    {
+      "question": "What should I prepare before visiting a cyber café?",
+      "answer": "Keep a valid photo ID, address proof, a small recent photograph, form details saved as text and any required certificates. Check that every scan is readable and shows all four corners."
+    },
+    {
+      "question": "What happens if the connection drops midway?",
+      "answer": "The app stores pending work locally and flushes its outbox when the network returns or on a periodic retry. Confirm the final submission status with the shop before leaving."
+    },
+    {
+      "question": "How do I remove temporary copies from a shared machine?",
+      "answer": "Sign out of every portal, delete downloads created during the session and ask the shop about its retention policy. A trustworthy café will have a clear answer."
+    }
+  ],
+  "exam": [
+    {
+      "question": "Is SoftSutra Exam affiliated with any government exam authority?",
+      "answer": "No. It is an independent practice platform. Mock patterns and questions are educational simulations and do not reproduce a live examination or predict cut-offs."
+    },
+    {
+      "question": "Which exams are covered?",
+      "answer": "The registry includes 16 national sets such as SSC, Railway, UPSC, JEE, NEET, CTET, CUET, CA, NET and Judiciary, plus 15 state sets across Haryana, Uttar Pradesh, Bihar, Rajasthan and Madhya Pradesh."
+    },
+    {
+      "question": "How does negative marking work in practice?",
+      "answer": "Each exam set carries its own marking rule. The engine uses decimal arithmetic for fractional penalties such as minus one-third or minus two-thirds, then shows the deduction in the scorecard."
+    },
+    {
+      "question": "Why are Doubt and Skip separate options?",
+      "answer": "Doubt means you understood the question but could not finish it. Skip means you have not committed to an answer yet. Separating them makes the second pass much more efficient."
+    },
+    {
+      "question": "Can I resume a test after closing the browser?",
+      "answer": "Saved sessions support resume through local storage with optional cloud profile sync. Tab-switch and reload violations may carry a penalty, so check the rules shown inside the portal."
+    }
+  ],
+  "speed": [
+    {
+      "question": "Why does the full test use multiple streams?",
+      "answer": "A single connection often cannot fill a high-capacity link. Parallel streams reveal sustained throughput more reliably, and a high percentile prevents a short burst from inflating the result."
+    },
+    {
+      "question": "What is bufferbloat?",
+      "answer": "It is the latency increase that happens when a router queues too much traffic during a download or upload. The full test compares idle and loaded ping to reveal it."
+    },
+    {
+      "question": "Why show MB/s as well as Mbps?",
+      "answer": "File downloads are usually measured in bytes. Eight megabits make one megabyte, so showing both units makes real-world transfer time easier to estimate."
+    },
+    {
+      "question": "Why do two tests give different results?",
+      "answer": "Wi-Fi interference, background updates, server load, routing changes and time of day all affect measurements. Repeat under similar conditions before drawing a conclusion."
+    },
+    {
+      "question": "What does the tiny preview ping measure?",
+      "answer": "It sends six real HTTP requests to the current origin and measures round-trip time, then computes the average and jitter. It is a quick health check, not a full bandwidth test."
+    }
+  ],
+  "wellness": [
+    {
+      "question": "Does the Jap preview use the exact 108-bead cycle?",
+      "answer": "Yes. The ring highlights 108 positions, tracks the current bead and completed malas, and saves the total locally. The full app also offers 54, 27 and 21 bead sizes."
+    },
+    {
+      "question": "Are the Panchang values on the preview live?",
+      "answer": "No. The preview shows illustrative sample data. The full Jap app computes Tithi, Nakshatra and related details from latitude, longitude and an astronomy engine."
+    },
+    {
+      "question": "What makes the Music app low-ad?",
+      "answer": "It is designed for uninterrupted playback with crossfade, offline caching and lock-screen controls. Its low-ad positioning means ads are kept out of the listening session rather than inserted between tracks."
+    },
+    {
+      "question": "Can I use these tools offline?",
+      "answer": "The portals cache their app shell and store state locally. Music also caches playable audio where permitted, and Jap stores sessions in IndexedDB. Features that need a live endpoint will show an offline message."
+    },
+    {
+      "question": "Is astrology or Panchang information scientifically verified?",
+      "answer": "Astronomical positions are computed with verified libraries, but interpretive elements are cultural and educational. Do not use them for legal, medical or financial decisions."
+    }
+  ]
+}

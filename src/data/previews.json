@@ -1,0 +1,152 @@
+{
+  "mcqs": [
+    {
+      "id": "ssc-32",
+      "category": "national",
+      "exam": "SSC CGL · Polity",
+      "question": "Which article of the Indian Constitution guarantees the Right to Constitutional Remedies?",
+      "options": ["Article 19", "Article 21", "Article 32", "Article 44"],
+      "answerIndex": 2,
+      "explanation": "Article 32 allows a person to move the Supreme Court for enforcement of fundamental rights. Dr B. R. Ambedkar called it the heart and soul of the Constitution."
+    },
+    {
+      "id": "upsc-42",
+      "category": "national",
+      "exam": "UPSC Prelims · Polity",
+      "question": "Which amendment added the words 'socialist' and 'secular' to the Preamble of India?",
+      "options": ["24th Amendment", "42nd Amendment", "44th Amendment", "73rd Amendment"],
+      "answerIndex": 1,
+      "explanation": "The 42nd Amendment Act, 1976 added 'socialist', 'secular' and 'integrity' to the Preamble."
+    },
+    {
+      "id": "neet-eye",
+      "category": "national",
+      "exam": "NEET · Biology",
+      "question": "Which part of the human eye regulates the amount of light entering it?",
+      "options": ["Cornea", "Iris", "Retina", "Lens"],
+      "answerIndex": 1,
+      "explanation": "The iris adjusts the size of the pupil, controlling how much light reaches the retina."
+    },
+    {
+      "id": "jee-capacitance",
+      "category": "national",
+      "exam": "JEE · Physics",
+      "question": "What is the SI unit of electrical capacitance?",
+      "options": ["Henry", "Farad", "Ohm", "Tesla"],
+      "answerIndex": 1,
+      "explanation": "Capacitance is measured in farads (F). One farad equals one coulomb of charge stored per volt."
+    },
+    {
+      "id": "ssc-nehru",
+      "category": "national",
+      "exam": "SSC CHSL · Literature",
+      "question": "Who authored 'The Discovery of India'?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Amartya Sen"],
+      "answerIndex": 1,
+      "explanation": "Jawaharlal Nehru wrote The Discovery of India while imprisoned during the Quit India movement."
+    },
+    {
+      "id": "hr-kurukshetra",
+      "category": "state",
+      "exam": "Haryana · General Knowledge",
+      "question": "Pehowa, the town known for its ancient pilgrimage sites, is in which district of Haryana?",
+      "options": ["Karnal", "Kurukshetra", "Ambala", "Sonipat"],
+      "answerIndex": 1,
+      "explanation": "Pehowa is a sub-district and pilgrimage town in Kurukshetra district, Haryana."
+    },
+    {
+      "id": "hr-capital",
+      "category": "state",
+      "exam": "HSSC · Haryana GK",
+      "question": "Which city serves as the capital of both Haryana and Punjab?",
+      "options": ["Chandigarh", "Panchkula", "Gurugram", "Hisar"],
+      "answerIndex": 0,
+      "explanation": "Chandigarh is a Union Territory and the shared capital of Haryana and Punjab."
+    },
+    {
+      "id": "up-ganga",
+      "category": "state",
+      "exam": "UPPSC · Geography",
+      "question": "Which river flows through the city of Varanasi?",
+      "options": ["Yamuna", "Ganga", "Gomti", "Chambal"],
+      "answerIndex": 1,
+      "explanation": "Varanasi lies on the banks of the Ganga, one of the oldest continuously inhabited cities in the world."
+    }
+  ],
+  "panchang": {
+    "dateContext": "Illustrative preview · refreshed inside the full app for your location",
+    "tithi": "Shukla Paksha · Tritiya",
+    "nakshatra": "Rohini",
+    "sunrise": "06:12 AM",
+    "sunset": "07:04 PM",
+    "moonPhase": "Waxing crescent",
+    "note": "Preview values are sample data. The full Jap app computes from latitude, longitude and a verified astronomy engine."
+  },
+  "cafeChecklist": [
+    {
+      "id": "id-proof",
+      "label": "Government photo ID",
+      "detail": "Carry a valid original ID and a clear digital copy. Match the name exactly on every form.",
+      "required": true
+    },
+    {
+      "id": "address-proof",
+      "label": "Address proof",
+      "detail": "Keep a PDF or photo of one accepted address document ready before reaching the counter.",
+      "required": true
+    },
+    {
+      "id": "photo",
+      "label": "Passport-size photo",
+      "detail": "A recent JPEG under 200 KB works for most online uploads and reduces retry time.",
+      "required": true
+    },
+    {
+      "id": "form-data",
+      "label": "Form fields saved as text",
+      "detail": "Type repeated details into a local draft so you are not retyping them on a shared keyboard.",
+      "required": true
+    },
+    {
+      "id": "scan-check",
+      "label": "Scan legibility check",
+      "detail": "Confirm all four corners are visible and the text can be read before transmitting.",
+      "required": false
+    },
+    {
+      "id": "session-cleanup",
+      "label": "Logout and clear downloads",
+      "detail": "Sign out of every portal and remove temporary files from the shared machine before leaving.",
+      "required": true
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "focus-flow",
+      "title": "Focus Flow",
+      "artist": "SoftSutra Studio",
+      "album": "Quiet Work Sessions",
+      "durationSeconds": 180,
+      "lyricLine": "One breath, one line, one clear task at a time.",
+      "playlist": "Deep Work"
+    },
+    {
+      "id": "rain-window",
+      "title": "Rain at the Window",
+      "artist": "SoftSutra Studio",
+      "album": "Low-Ad Listening",
+      "durationSeconds": 210,
+      "lyricLine": "Let the noise settle; keep the melody close.",
+      "playlist": "Calm Evening"
+    },
+    {
+      "id": "morning-loop",
+      "title": "Morning Loop",
+      "artist": "SoftSutra Studio",
+      "album": "Study Cycle",
+      "durationSeconds": 165,
+      "lyricLine": "Start small, stay steady, finish strong.",
+      "playlist": "Study Cycle"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "key": "exam",
+    "subdomain": "exam",
+    "name": "Exam",
+    "fullName": "SoftSutra Exam",
+    "category": "Competitive exam preparation",
+    "tagline": "90 days of disciplined CBT practice",
+    "summary": "A computer-based mock-test portal with 16 national and 15 state exam sets, day-wise papers, section tabs, a question palette, rough work pad, fractional negative marking and step-by-step solutions.",
+    "features": [
+      "16 national sets including SSC, UPSC, JEE, NEET, CTET, CUET, CA, NET and Judiciary",
+      "15 state sets across Haryana, Uttar Pradesh, Bihar, Rajasthan and Madhya Pradesh",
+      "90-day calendar with day unlock, resume, previous-day results and solutions",
+      "Previous / Doubt / Skip / Clear / Next controls plus a touch rough pad",
+      "Exact negative marking with decimal.js, including −1/3 and −2/3 patterns",
+      "Violation tracking, saved sessions, scorecard, solutions and progress tiers"
+    ],
+    "audience": [
+      "SSC and Railway aspirants",
+      "UPSC and State PSC candidates",
+      "JEE / NEET students",
+      "State teacher and clerical exams"
+    ],
+    "icon": "GraduationCap",
+    "accent": "indigo",
+    "ctaLabel": "Open Exam",
+    "guideKey": "exam",
+    "status": "live"
+  },
+  {
+    "key": "jap",
+    "subdomain": "jap",
+    "name": "Jap",
+    "fullName": "SoftSutra Jap",
+    "category": "Digital spiritual practice",
+    "tagline": "A calm 108-bead counter with a Vedic clock",
+    "summary": "An offline-first Rudraksha mala counter with selectable mala sizes, 159 mantras, tactile and audio feedback, Sankalp text, Panchang, Kundli preview and a scripture reader.",
+    "features": [
+      "108 / 54 / 27 / 21 bead cycles with animated Rudraksha ring and completion glow",
+      "159 searchable mantras across 11 categories plus custom mantra creation",
+      "Dexie-backed sessions, history, yajman records and queued background sync",
+      "Live Panchang: Tithi, Paksha, Nakshatra, Yoga, Karana, sunrise and moonrise",
+      "Kundli and Graha preview from astronomy-engine with a documented ayanamsa model",
+      "Sankalp generator and a reader for Hanuman Chalisa, Shiv Tandav, Gita and more"
+    ],
+    "audience": [
+      "Daily jap practitioners",
+      "Families observing anushthan",
+      "Pandits managing yajman records",
+      "Users without reliable connectivity"
+    ],
+    "icon": "Sparkles",
+    "accent": "violet",
+    "ctaLabel": "Open Jap",
+    "guideKey": "wellness",
+    "status": "live"
+  },
+  {
+    "key": "music",
+    "subdomain": "music",
+    "name": "Music",
+    "fullName": "SoftSutra Music",
+    "category": "Focused music streaming",
+    "tagline": "Low-distraction listening, offline where it counts",
+    "summary": "A distraction-free player with dual-deck crossfade, quality ladder, WebAudio equalizer, synced lyrics, playlists, sleep timer, wake lock and lock-screen media controls.",
+    "features": [
+      "Dual-deck playback with requestAnimationFrame equal-power crossfade",
+      "Quality ladder with auto switching and exact resume timestamp",
+      "WebAudio EQ, live visualizer, sleep timer and screen wake lock",
+      "Lyrics tiers including LRCLIB, local LRC, offset calibration and tap-to-seek",
+      "Daily trending mix, POP100, singers hub, search and saved playlists",
+      "Offline service-worker vault with Range/206 support and MediaSession controls"
+    ],
+    "audience": [
+      "Students who study with music",
+      "Commuters with patchy data",
+      "Listeners who dislike intrusive ads",
+      "Lyrics and playlist collectors"
+    ],
+    "icon": "Headphones",
+    "accent": "sky",
+    "ctaLabel": "Open Music",
+    "guideKey": "wellness",
+    "status": "live"
+  },
+  {
+    "key": "calculator",
+    "subdomain": "calculator",
+    "name": "Calculator",
+    "fullName": "SoftSutra Calculator",
+    "category": "Finance, measurement & daily maths",
+    "tagline": "Exact money maths and practical measurement",
+    "summary": "The all-in-one suite blueprint covers standard, scientific and programmer modes; land and room area; EMI, GST, FD, SIP and currency tools; commissions; and daily utilities with decimal.js for money.",
+    "features": [
+      "Standard, scientific and programmer calculation modes with degree/radian support",
+      "Irregular land area, room paint and surface estimation with documented formulas",
+      "EMI, GST split, FD/RD, SIP, cash denomination and currency conversion tools",
+      "Flat, salary-plus, graduated and gross-margin commission calculators",
+      "Discount, split bill, travel cost, age and unit-conversion utilities",
+      "Dexie audit history, theme and install flows; money uses decimal.js half-up rounding"
+    ],
+    "audience": [
+      "Home buyers and borrowers",
+      "Small traders and commission agents",
+      "Students and civil-work estimators",
+      "Anyone checking a bill or tax split"
+    ],
+    "icon": "Calculator",
+    "accent": "emerald",
+    "ctaLabel": "Open Calculator",
+    "guideKey": "finance",
+    "status": "expanding"
+  },
+  {
+    "key": "speed",
+    "subdomain": "speed",
+    "name": "Speed",
+    "fullName": "SoftSutra Speed",
+    "category": "Broadband & network diagnostics",
+    "tagline": "Real throughput, loaded latency and local benchmarks",
+    "summary": "A three-phase network test: multi-stream download, multi-stream upload and ping/jitter, with bufferbloat grading, Mbps plus real MB/s, ISP intelligence and hyper-local comparisons.",
+    "features": [
+      "Automatic ping → download → upload sequence with stop, share and retry",
+      "6 concurrent download streams and 4 concurrent upload streams with p85 results",
+      "Loaded-ping probes for bufferbloat grading from A+ to D",
+      "Simultaneous Mbps and MB/s plus download-time estimators",
+      "Connection type, ISP/ASN normalisation and ~600 m geohash local benchmarks",
+      "Last 100 results with JSON/CSV export and a shareable 1080×540 result card"
+    ],
+    "audience": [
+      "Fiber and 5G households",
+      "Remote workers diagnosing video calls",
+      "Gamers watching jitter",
+      "Users comparing ISP plans"
+    ],
+    "icon": "Gauge",
+    "accent": "cyan",
+    "ctaLabel": "Open Speed",
+    "guideKey": "broadband",
+    "status": "live"
+  },
+  {
+    "key": "cafe",
+    "subdomain": "cafe",
+    "name": "Cafe",
+    "fullName": "SoftSutra Cafe",
+    "category": "Secure document transfer",
+    "tagline": "USB-free document handoff for cyber cafés",
+    "summary": "A customer and shopkeeper portal for form data and documents: permanent links, OTP gates, a debounced autosaving wizard, compressed uploads, signed presigning and an offline outbox.",
+    "features": [
+      "Separate customer and shopkeeper entry with permanent link routing",
+      "Four-step form wizard with debounced autosave and conditional relation fields",
+      "Sequential document chain, WebP compression at 0.15 MB and legibility workflow",
+      "Six-digit offline PIN shards and 24-hour overwrite/keep-both versioning",
+      "Dexie stores with outbox flush on reconnect and blob caching",
+      "Rate-limited OTP endpoints, Turnstile checks, signed admin access and S3 presigning"
+    ],
+    "audience": [
+      "Cyber café owners",
+      "Customers without a personal laptop",
+      "Government form applicants",
+      "Anyone avoiding USB malware risk"
+    ],
+    "icon": "ShieldCheck",
+    "accent": "amber",
+    "ctaLabel": "Open Cafe",
+    "guideKey": "privacy",
+    "status": "live"
+  }
+]

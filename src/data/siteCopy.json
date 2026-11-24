@@ -1,0 +1,64 @@
+{
+  "home": {
+    "metaTitle": "SoftSutra | Privacy-first digital utility ecosystem",
+    "metaDescription": "Explore six fast, offline-ready SoftSutra apps for exams, EMI and GST, network diagnostics, jap counting, focused music and secure document transfer.",
+    "ecosystemKicker": "The SoftSutra ecosystem",
+    "ecosystemTitle": "Six focused apps, one trusted portal",
+    "ecosystemDescription": "Each subdomain has its own performance budget and offline cache. Launch directly on the parent domain that is currently serving this site.",
+    "previewsKicker": "Try it here, then go deeper",
+    "previewsTitle": "Interactive previews with original guides",
+    "previewsDescription": "Every widget below runs in your browser. Results stay on this device unless you choose to open the full application.",
+    "closingTitle": "Start with one tool. Stay for the ecosystem.",
+    "closingDescription": "No account is required to try a preview. Open the full app when you need saved history, deeper settings or offline installation.",
+    "trust": [
+      { "title": "Privacy first", "text": "Local state by default, clear ad disclosures." },
+      { "title": "Offline ready", "text": "Installable shells and cached work." },
+      { "title": "Actually useful", "text": "One focused job per subdomain." }
+    ]
+  },
+  "widgets": {
+    "calculator": {
+      "description": "Live EMI and GST preview using decimal.js with half-up rounding. Inputs persist offline.",
+      "cta": "Open full suite"
+    },
+    "speed": {
+      "description": "Six real HTTP round trips to the current origin. Jitter is the mean change between consecutive samples.",
+      "cta": "Full network diagnostics"
+    },
+    "exam": {
+      "description": "National and state practice questions with instant explanations. Your score saves locally.",
+      "cta": "Mock test series"
+    },
+    "jap": {
+      "description": "Tap through a 108-bead cycle with tactile feedback and a sample Vedic calendar strip.",
+      "cta": "Open Jap app"
+    },
+    "music": {
+      "description": "A soft generated tone stands in for audio here. The full app adds crossfade, EQ, lyrics and offline playback.",
+      "cta": "Open Music"
+    },
+    "cafe": {
+      "description": "Tick what you have ready before visiting a trustworthy cyber café. Your checklist persists on this device.",
+      "cta": "Open Cafe portal"
+    }
+  },
+  "chrome": {
+    "consent": "We use essential local storage to remember your preferences. With your permission, Google AdSense may use cookies to show relevant ads.",
+    "consentLink": "Read our policy",
+    "consentEssential": "Essential only",
+    "consentPersonalized": "Accept personalised ads",
+    "install": "Install SoftSutra for offline-ready, one-tap access.",
+    "installAction": "Install",
+    "installDismiss": "Dismiss install prompt",
+    "adLabel": "Advertisement",
+    "adSidebarLabel": "Sticky advertisement",
+    "adHide": "Hide bottom advertisement",
+    "adReserved": "Advertisement space reserved",
+    "adGeometry": "Geometry fixed · no layout shift",
+    "errorTitle": "Something paused here",
+    "errorText": "The portal hit an unexpected error. Your saved widget data is intact. Reload to continue.",
+    "errorAction": "Reload SoftSutra",
+    "back": "Back",
+    "sectionsLabel": "Sections"
+  }
+}

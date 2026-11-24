@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoftSutra Cloud — Global Web Applications, Intelligence Suites & Precision Utilities</title>
+  <meta name="description" content="SoftSutra is a modular next-generation cloud software ecosystem delivering zero-install web applications across Competitive Assessment Tech, Enterprise 5G & SD-WAN Network Telemetry, Global Financial & Forex Modeling, Civil Geomatics, and AI Productivity Workflows." />
+  <meta name="keywords" content="SoftSutra Cloud Ecosystem, Enterprise SaaS Utilities, Chartered Accountancy Mock Test Platform, Judiciary Law Assessment CBT, IIT JEE NEET Analytics, Enterprise 5G Speed Telemetry, SD-WAN Bufferbloat QoS Diagnostics, Mortgage Loan EMI Amortization Calculator, Global Forex Currency Converter, Civil Engineering Heron Formula Land Valuation" />
+  <meta name="author" content="Raman Sharma — SoftSutra Cloud" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://softsutra.online/" />
+
+  <!-- Open Graph Global Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SoftSutra" />
+  <meta property="og:title" content="SoftSutra — Precision Cloud Applications Built for Global Scale" />
+  <meta property="og:description" content="Launch zero-install web software across Assessment Analytics, Multi-Stream Network Telemetry, Global Finance, Civil Geomatics & Upcoming AI Modules." />
+  <meta property="og:url" content="https://softsutra.online/" />
+
+  <!-- Fonts: Inter + Plus Jakarta Sans + Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Google AdSense Global Script (Replace ca-pub-XXXXXXXXXXXXXXXX with your real Publisher ID) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+  <!-- Structured Data: Organization + Software Suite + 14 Rich FAQs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "SoftSutra",
+        "url": "https://softsutra.online/",
+        "founder": {
+          "@type": "Person",
+          "name": "Raman Sharma"
+        },
+        "description": "Modular cloud software ecosystem engineering zero-install web applications for global and Indian workflows."
+      },
+      {
+        "@type": "WebSite",
+        "name": "SoftSutra Cloud Ecosystem",
+        "url": "https://softsutra.online/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is SoftSutra and can international users access its web applications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SoftSutra (softsutra.online) is a global zero-install cloud application ecosystem. Users worldwide can access its multi-stream network speed telemetry, 166+ live global forex currency converters, scientific/programmer calculators, mortgage EMI estimators, and civil land area tools directly from any modern browser."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will SoftSutra launch more cloud subdomains in the future?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. SoftSutra is architected as a modular multi-subdomain cloud ecosystem. Beyond exam.softsutra.online, speed.softsutra.online, and calculator.softsutra.online, upcoming subdomains include Document & PDF Intelligence, Cloud Developer & DNS Diagnostics, and Business Tax & Workflow Automation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does SoftSutra Speed Test measure real 5G and gigabit fiber capacity without overhead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "speed.softsutra.online uses an Offline-First PWA Service Worker shell and opens 6 concurrent TCP binary streams across global CDN edge nodes, reporting 85th-percentile Mbps and real MB/s alongside Unloaded vs. Loaded Ping (Bufferbloat QoS) diagnostics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the Irregular Land Area (Heron's Formula) module calculate plot valuation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Inside calculator.softsutra.online, users enter the four boundary sides (AB, BC, CD, DA) and one diagonal (AC) of any asymmetric quadrilateral plot to compute exact square footage and total property value based on market rate per sq ft."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --bg-elevated: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --surface-glass: rgba(255, 255, 255, 0.84);
+      --border: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --text: #090d16;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --accent: #4f46e5;
+      --accent-2: #0ea5e9;
+      --accent-3: #10b981;
+      --badge-bg: rgba(79, 70, 229, 0.09);
+      --shadow-sm: 0 2px 10px rgba(15, 23, 42, 0.04);
+      --shadow-lg: 0 20px 50px -14px rgba(15, 23, 42, 0.10);
+      --radius-lg: 22px;
+      --radius-md: 14px;
+    }
+
+    [data-theme="dark"] {
+      --bg: #05070e;
+      --bg-elevated: #0c111d;
+      --bg-subtle: #111827;
+      --surface-glass: rgba(12, 17, 29, 0.82);
+      --border: rgba(148, 163, 184, 0.14);
+      --border-strong: rgba(148, 163, 184, 0.26);
+      --text: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #6366f1;
+      --accent-2: #38bdf8;
+      --accent-3: #34d399;
+      --badge-bg: rgba(99, 102, 241, 0.14);
+      --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.35);
+      --shadow-lg: 0 24px 60px -15px rgba(0, 0, 0, 0.7);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .brand-name {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', sans-serif;
+      letter-spacing: -0.025em;
+    }
+
+    /* Architectural SaaS Grid + Subtle Spotlight */
+    .saas-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background-image:
+        radial-gradient(ellipse 75% 45% at 50% -10%, rgba(99, 102, 241, 0.20), transparent),
+        radial-gradient(circle at 85% 25%, rgba(14, 165, 233, 0.10), transparent 35%),
+        linear-gradient(to right, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+    }
+
+    .container {
+      width: min(1220px, 92%);
+      margin: 0 auto;
+    }
+
+    /* Single-Row Ultra-Clean SaaS Top Header (Never wraps on Mobile!) */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      height: 64px;
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      background: var(--surface-glass);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .topbar-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text);
+      flex-shrink: 0;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1 0%, #0ea5e9 55%, #10b981 100%);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 800;
+      font-size: 1rem;
+      box-shadow: 0 6px 18px rgba(99, 102, 241, 0.35);
+    }
+
+    .brand-name {
+      font-weight: 800;
+      font-size: 1.15rem;
+    }
+
+    .status-dot {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-3);
+      border: 1px solid rgba(16, 185, 129, 0.28);
+    }
+
+    .status-dot::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-3);
+    }
+
+    .desktop-nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .desktop-nav a {
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 7px 12px;
+      border-radius: 9px;
+      transition: color 0.18s, background 0.18s;
+    }
+
+    .desktop-nav a:hover {
+      color: var(--text);
+      background: var(--bg-subtle);
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      flex-shrink: 0;
+    }
+
+    .ctrl-btn {
+      height: 36px;
+      padding: 0 11px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+      background: var(--bg-elevated);
+      color: var(--text);
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: border-color 0.18s, transform 0.15s;
+    }
+
+    .ctrl-btn:hover {
+      border-color: var(--accent);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+    }
+
+    .mobile-drawer {
+      display: none;
+      background: var(--bg-elevated);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 4%;
+    }
+
+    .mobile-drawer.open {
+      display: grid;
+      gap: 8px;
+    }
+
+    .mobile-drawer a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.92rem;
+      padding: 9px 12px;
+      border-radius: 10px;
+      background: var(--bg-subtle);
+    }
+
+    /* Compact Global SaaS Hero */
+    .hero {
+      padding: 44px 0 28px;
+      text-align: center;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px;
+      border-radius: 999px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .hero-pill strong {
+      color: var(--accent);
+    }
+
+    .hero h1 {
+      font-size: clamp(1.95rem, 4.8vw, 3.55rem);
+      line-height: 1.12;
+      font-weight: 800;
+      max-width: 920px;
+      margin: 0 auto 14px;
+    }
+
+    .text-gradient {
+      background: linear-gradient(135deg, #6366f1 0%, #38bdf8 52%, #34d399 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-lead {
+      max-width: 760px;
+      margin: 0 auto 26px;
+      font-size: clamp(0.95rem, 1.5vw, 1.08rem);
+      color: var(--text-secondary);
+    }
+
+    /* Instant Above-the-Fold App Dock */
+    .quick-dock {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .dock-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 16px;
+      border-radius: 13px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.87rem;
+      font-weight: 700;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.18s ease, border-color 0.18s ease;
+    }
+
+    .dock-chip:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+
+    .dock-chip .ext {
+      color: var(--accent-2);
+      font-size: 0.82rem;
+    }
+
+    /* Ecosystem Metrics Strip */
+    .metrics-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .metric-item {
+      text-align: center;
+      padding: 6px;
+      border-right: 1px solid var(--border);
+    }
+
+    .metric-item:last-child {
+      border-right: none;
+    }
+
+    .metric-item strong {
+      display: block;
+      font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .metric-item span {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+
+    /* Smart Zero-Blank AdSense Wrapper (Collapses cleanly until approved/filled!) */
+    .ad-slot-wrap {
+      margin: 38px auto;
+      text-align: center;
+    }
+
+    .ad-slot-wrap ins.adsbygoogle[data-ad-status="unfilled"] {
+      display: none !important;
+    }
+
+    /* Section Headers */
+    .section-block {
+      padding: 44px 0;
+    }
+
+    .section-header-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow-tag {
+      font-size: 0.76rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent-2);
+      margin-bottom: 6px;
+    }
+
+    .section-title {
+      font-size: clamp(1.45rem, 2.8vw, 2.1rem);
+      line-height: 1.2;
+    }
+
+    /* Category Filter Pills */
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-pill {
+      padding: 7px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .filter-pill.active, .filter-pill:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    /* SaaS App Directory Grid */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .saas-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18px;
+      transition: border-color 0.22s ease, transform 0.22s ease;
+    }
+
+    .saas-card:hover {
+      border-color: var(--border-strong);
+      transform: translateY(-3px);
+    }
+
+    .saas-card.upcoming {
+      border-style: dashed;
+      opacity: 0.92;
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .app-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 13px;
+      display: grid;
+      place-items: center;
+      font-size: 1.3rem;
+      background: var(--badge-bg);
+      border: 1px solid var(--border);
+    }
+
+    .subdomain-tag {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+
+    .saas-card h3 {
+      font-size: 1.24rem;
+      margin-top: 12px;
+      margin-bottom: 6px;
+    }
+
+    .saas-card p {
+      font-size: 0.91rem;
+      color: var(--text-secondary);
+    }
+
+    .kpi-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 14px;
+    }
+
+    .kpi-chip {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 8px;
+      background: var(--bg-subtle);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .card-cta-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding-top: 6px;
+    }
+
+    .btn-launch {
+      flex: 1;
+      min-width: 155px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 11px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.89rem;
+      color: #fff;
+      background: linear-gradient(135deg, #4f46e5, #0ea5e9);
+      box-shadow: 0 8px 20px -6px rgba(79, 70, 229, 0.55);
+      transition: opacity 0.18s, transform 0.18s;
+    }
+
+    .btn-launch.emerald {
+      background: linear-gradient(135deg, #059669, #10b981);
+      box-shadow: 0 8px 20px -6px rgba(16, 185, 129, 0.45);
+    }
+
+    .btn-launch.cyan {
+      background: linear-gradient(135deg, #0284c7, #06b6d4);
+      box-shadow: 0 8px 20px -6px rgba(6, 182, 212, 0.45);
+    }
+
+    .btn-launch:hover {
+      opacity: 0.94;
+      transform: translateY(-1px);
+    }
+
+    .btn-spec {
+      padding: 11px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--bg-subtle);
+      color: var(--text);
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    /* Interactive SaaS Specification Workbench (Zero Blog Feel, 100% On-Page Content!) */
+    .workbench {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      padding: clamp(20px, 3.5vw, 36px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .spec-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .spec-tab {
+      white-space: nowrap;
+      padding: 10px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--bg-subtle);
+      color: var(--text-secondary);
+      font-weight: 700;
+      font-size: 0.86rem;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .spec-tab.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .spec-panel {
+      display: none;
+    }
+
+    .spec-panel.active {
+      display: block;
+    }
+
+    .spec-banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 20px;
+      border-radius: 18px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+
+    .spec-bento {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+      gap: 16px;
+    }
+
+    .spec-module {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .spec-module h4 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .spec-module p, .spec-module li {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+    }
+
+    .spec-module ul {
+      padding-left: 17px;
+      margin-top: 6px;
+      display: grid;
+      gap: 5px;
+    }
+
+    /* Expandable Deep-Read Hindi + Global Notes inside Workbench */
+    details.deep-drawer {
+      margin-top: 16px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 18px;
+    }
+
+    details.deep-drawer summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.9rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    details.deep-drawer .drawer-body {
+      margin-top: 12px;
+      font-size: 0.89rem;
+      color: var(--text-secondary);
+      display: grid;
+      gap: 8px;
+    }
+
+    /* Categorized Global + India FAQ Hub */
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    details.faq-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px 20px;
+      transition: border-color 0.18s;
+    }
+
+    details.faq-card[open] {
+      border-color: var(--accent);
+    }
+
+    details.faq-card summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.95rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    details.faq-card p {
+      margin-top: 10px;
+      font-size: 0.89rem;
+      color: var(--text-secondary);
+    }
+
+    /* Enterprise Footer */
+    footer {
+      margin-top: 52px;
+      padding: 46px 0 36px;
+      background: var(--bg-elevated);
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-cols {
+      display: grid;
+      grid-template-columns: 1.5fr repeat(3, 1fr);
+      gap: 28px;
+      margin-bottom: 28px;
+    }
+
+    .footer-cols h4 {
+      font-size: 0.92rem;
+      margin-bottom: 12px;
+    }
+
+    .footer-list {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .footer-list a, .footer-list button {
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+      text-decoration: none;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .footer-list a:hover, .footer-list button:hover {
+      color: var(--accent-2);
+    }
+
+    .footer-bottom {
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    /* Legal Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 14, 0.76);
+      backdrop-filter: blur(8px);
+      display: none;
+      place-items: center;
+      z-index: 500;
+      padding: 18px;
+    }
+
+    .modal-overlay.active {
+      display: grid;
+    }
+
+    .modal-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 20px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 84vh;
+      overflow-y: auto;
+      padding: 26px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* GDPR / Global AdSense Cookie Consent Bar */
+    .cookie-bar {
+      position: fixed;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(760px, 92%);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 16px;
+      padding: 14px 18px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      z-index: 400;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .cookie-bar.show {
+      display: flex;
+    }
+
+    .cookie-bar p {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      flex: 1;
+      min-width: 220px;
+    }
+
+    @media (max-width: 860px) {
+      .desktop-nav { display: none; }
+      .mobile-menu-btn { display: inline-flex; }
+      .metrics-bar { grid-template-columns: repeat(2, 1fr); }
+      .metric-item:nth-child(2) { border-right: none; }
+      .footer-cols { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 520px) {
+      .status-dot { display: none; }
+      .footer-cols { grid-template-columns: 1fr; }
+      .hero { padding-top: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="saas-backdrop"></div>
+
+  <!-- Sleek Single-Row Global SaaS Topbar -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">SoftSutra</span>
+        <span class="status-dot">Cloud Suite</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#ecosystem" data-i18n="nav_apps">Products</a>
+        <a href="#specifications" data-i18n="nav_specs">Architecture & Specs</a>
+        <a href="#roadmap" data-i18n="nav_roadmap">2026–27 Pipeline</a>
+        <a href="#faq" data-i18n="nav_faq">Global FAQ</a>
+        <a href="#trust" onclick="openLegal('about'); return false;" data-i18n="nav_about">About</a>
+      </nav>
+
+      <div class="header-controls">
+        <button class="ctrl-btn" id="langBtn" type="button" aria-label="Switch Language">🌐 हिं</button>
+        <button class="ctrl-btn" id="themeBtn" type="button" aria-label="Toggle Theme">☀️</button>
+        <button class="ctrl-btn mobile-menu-btn" id="menuBtn" type="button" aria-label="Open Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Compact Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#ecosystem" onclick="toggleMobileMenu()" data-i18n="nav_apps">Products Directory</a>
+    <a href="#specifications" onclick="toggleMobileMenu()" data-i18n="nav_specs">Full Architecture & Specs</a>
+    <a href="#roadmap" onclick="toggleMobileMenu()" data-i18n="nav_roadmap">Upcoming Subdomains</a>
+    <a href="#faq" onclick="toggleMobileMenu()" data-i18n="nav_faq">Knowledge Base & FAQ</a>
+    <a href="#trust" onclick="toggleMobileMenu(); openLegal('privacy'); return false;">Privacy & Ad Compliance</a>
+  </div>
+
+  <main id="top" class="container">
+    <!-- Brand-First Global SaaS Hero (Built for Unlimited Subdomains!) -->
+    <section class="hero">
+      <div class="hero-pill">
+        <strong>SoftSutra Cloud OS</strong>
+        <span data-i18n="hero_badge">• Modular Zero-Install Web Software for Global & Indian Workflows</span>
+      </div>
+
+      <h1 data-i18n="hero_title">
+        One Intelligent Cloud Ecosystem. <span class="text-gradient">Precision Web Apps Built for Scale.</span>
+      </h1>
+
+      <p class="hero-lead" data-i18n="hero_sub">
+        SoftSutra engineers fast, browser-native SaaS platforms and specialized micro-utilities—spanning competitive assessment engines, enterprise network telemetry, global financial & civil modeling, and upcoming AI cloud tools. Zero downloads. Instant launch in a new tab.
+      </p>
+
+      <!-- Instant Launch Dock (Visible Immediately Above the Fold on Mobile!) -->
+      <div class="quick-dock" aria-label="Quick Launch Applications">
+        <a class="dock-chip" href="https://exam.softsutra.online" target="_blank" rel="noopener noreferrer">
+          <span>🎓 CBT Exam Cloud</span>
+          <span class="ext">↗</span>
+        </a>
+        <a class="dock-chip" href="https://speed.softsutra.online" target="_blank" rel="noopener noreferrer">
+          <span>⚡ 5G & Fiber Telemetry</span>
+          <span class="ext">↗</span>
+        </a>
+        <a class="dock-chip" href="https://calculator.softsutra.online" target="_blank" rel="noopener noreferrer">
+          <span>🧮 FinTech & Civil Suite</span>
+          <span class="ext">↗</span>
+        </a>
+        <a class="dock-chip" href="#roadmap">
+          <span data-i18n="dock_more">🧩 + Upcoming Cloud Labs</span>
+        </a>
+      </div>
+
+      <!-- SaaS Telemetry Strip -->
+      <div class="metrics-bar">
+        <div class="metric-item">
+          <strong>Zero-Install</strong>
+          <span data-i18n="m1">Edge PWA Cloud Architecture</span>
+        </div>
+        <div class="metric-item">
+          <strong>166+ Nations</strong>
+          <span data-i18n="m2">Global Forex, Units & TCP Nodes</span>
+        </div>
+        <div class="metric-item">
+          <strong>Multi-App</strong>
+          <span data-i18n="m3">Modular Subdomain Infrastructure</span>
+        </div>
+        <div class="metric-item">
+          <strong>&lt; 50 ms</strong>
+          <span data-i18n="m4">Instant Local-Cache UI Response</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SMART ADSENSE SLOT 1 (Invisible before approval; 38px safe margin once active) -->
+    <div class="ad-slot-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="1111111111"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- =============================================================== -->
+    <!-- PRODUCT DIRECTORY (FILTERABLE + EXPANDABLE FOR NEW SUBDOMAINS)  -->
+    <!-- =============================================================== -->
+    <section id="ecosystem" class="section-block">
+      <div class="section-header-row">
+        <div>
+          <div class="eyebrow-tag" data-i18n="dir_kicker">Cloud Application Directory</div>
+          <h2 class="section-title" data-i18n="dir_title">Active Platforms & Modular Cloud Pipeline</h2>
+        </div>
+        <div class="filter-pills" role="tablist" aria-label="Filter Applications">
+          <button class="filter-pill active" type="button" onclick="filterApps('all', this)">All Suite</button>
+          <button class="filter-pill" type="button" onclick="filterApps('live', this)">Live Production</button>
+          <button class="filter-pill" type="button" onclick="filterApps('fintech', this)">FinTech & Civil</button>
+          <button class="filter-pill" type="button" onclick="filterApps('infra', this)">Network & EdTech</button>
+          <button class="filter-pill" type="button" onclick="filterApps('pipeline', this)">Upcoming R&D</button>
+        </div>
+      </div>
+
+      <div class="app-grid" id="appGrid">
+        <!-- LIVE APP 1: EXAM -->
+        <article class="saas-card" data-cat="live infra">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">🎓</div>
+              <span class="subdomain-tag">exam.softsutra.online</span>
+            </div>
+            <h3 data-i18n="app1_title">SoftSutra CBT Assessment & Analytics Cloud</h3>
+            <p data-i18n="app1_desc">
+              Disciplined 90-day live Computer-Based Test (CBT) simulation engine for Chartered Accountancy (CA), Judiciary Law, IIT JEE, NEET Medical, UPSC, UGC NET, SSC & State Civil Services.
+            </p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">90-Day Midnight Unlock</span>
+              <span class="kpi-chip">Per-Second Telemetry</span>
+              <span class="kpi-chip">50x Live Rank Pool</span>
+              <span class="kpi-chip">Anti-Cheat + Auto-Resume</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <a class="btn-launch" href="https://exam.softsutra.online" target="_blank" rel="noopener noreferrer" data-i18n="launch_exam">
+              Launch Exam Portal ↗
+            </a>
+            <a class="btn-spec" href="#specifications" onclick="activateSpec('spec-exam')" data-i18n="view_specs">
+              Specs ▾
+            </a>
+          </div>
+        </article>
+
+        <!-- LIVE APP 2: SPEED -->
+        <article class="saas-card" data-cat="live infra">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">⚡</div>
+              <span class="subdomain-tag">speed.softsutra.online</span>
+            </div>
+            <h3 data-i18n="app2_title">Enterprise 5G, Fiber & SD-WAN Telemetry</h3>
+            <p data-i18n="app2_desc">
+              Zero-interference global network diagnostics utilizing 6 concurrent TCP streams across edge CDNs to measure true Mbps/MB/s throughput, VoIP/Gaming Bufferbloat QoS, and 600m Geohash cell benchmarks.
+            </p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">6x Concurrent TCP</span>
+              <span class="kpi-chip">Mbps + Real OS MB/s</span>
+              <span class="kpi-chip">Bufferbloat Loaded Ping</span>
+              <span class="kpi-chip">Offline-First PWA</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <a class="btn-launch cyan" href="https://speed.softsutra.online" target="_blank" rel="noopener noreferrer" data-i18n="launch_speed">
+              Launch Speed Test ↗
+            </a>
+            <a class="btn-spec" href="#specifications" onclick="activateSpec('spec-speed')" data-i18n="view_specs">
+              Specs ▾
+            </a>
+          </div>
+        </article>
+
+        <!-- LIVE APP 3: CALCULATOR -->
+        <article class="saas-card" data-cat="live fintech">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">🧮</div>
+              <span class="subdomain-tag">calculator.softsutra.online</span>
+            </div>
+            <h3 data-i18n="app3_title">Smart Financial, Forex & Civil Geomatics Suite</h3>
+            <p data-i18n="app3_desc">
+              All-in-one digital workstation combining Mortgage/Loan EMI amortization, 166+ live global forex currencies, GST tax slabs, Heron's Formula irregular land valuation, 3D room surface estimation, and client audit logs.
+            </p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">166+ Live Currencies</span>
+              <span class="kpi-chip">Heron's Land Valuation</span>
+              <span class="kpi-chip">Loan EMI + Tax Suite</span>
+              <span class="kpi-chip">Audit History + Notes</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <a class="btn-launch emerald" href="https://calculator.softsutra.online" target="_blank" rel="noopener noreferrer" data-i18n="launch_calc">
+              Launch Calculator ↗
+            </a>
+            <a class="btn-spec" href="#specifications" onclick="activateSpec('spec-calc')" data-i18n="view_specs">
+              Specs ▾
+            </a>
+          </div>
+        </article>
+
+        <!-- UPCOMING MODULAR SUBDOMAIN SLOTS (READY FOR FUTURE LAUNCHES!) -->
+        <article id="roadmap" class="saas-card upcoming" data-cat="pipeline">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">📄</div>
+              <span class="subdomain-tag">docs • pipeline</span>
+            </div>
+            <h3>SoftSutra Document & PDF Studio</h3>
+            <p>Browser-side OCR extraction, high-ratio PDF compression, smart form automation, and privacy-first client-side document conversion with zero server uploads.</p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">WebAssembly Local Processing</span>
+              <span class="kpi-chip">2026–27 Roadmap</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <span class="btn-spec" style="width:100%; text-align:center;">Modular Cloud Slot • In Engineering</span>
+          </div>
+        </article>
+
+        <article class="saas-card upcoming" data-cat="pipeline infra">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">🛡️</div>
+              <span class="subdomain-tag">netops • pipeline</span>
+            </div>
+            <h3>Cloud DNS, SSL & Developer Diagnostics</h3>
+            <p>Global DNS propagation resolver, HTTP/3 header inspector, JSON/JWT cryptographic debugger, and real-time API latency monitoring for DevOps engineers.</p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">Global Edge Checks</span>
+              <span class="kpi-chip">2026–27 Roadmap</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <span class="btn-spec" style="width:100%; text-align:center;">Modular Cloud Slot • In Engineering</span>
+          </div>
+        </article>
+
+        <article class="saas-card upcoming" data-cat="pipeline fintech">
+          <div>
+            <div class="card-top">
+              <div class="app-icon">📊</div>
+              <span class="subdomain-tag">biz • pipeline</span>
+            </div>
+            <h3>Enterprise Invoicing & Wealth Planners</h3>
+            <p>Multi-currency commercial quotation generator, SIP/ETF compounding simulators, solar ROI calculators, and EV charging cost analytics for global households and SMBs.</p>
+            <div class="kpi-chips">
+              <span class="kpi-chip">FinTech & CleanTech</span>
+              <span class="kpi-chip">2026–27 Roadmap</span>
+            </div>
+          </div>
+          <div class="card-cta-row">
+            <span class="btn-spec" style="width:100%; text-align:center;">Modular Cloud Slot • In Engineering</span>
+          </div>
+        </article>
+        <!-- FUTURE SUBDOMAIN TEMPLATE: Copy any <article class="saas-card"> block above to add your 4th, 5th, or 10th live subdomain in seconds! -->
+      </div>
+    </section>
+
+    <!-- SMART ADSENSE SLOT 2 -->
+    <div class="ad-slot-wrap">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="2222222222"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- INTERACTIVE ON-PAGE ARCHITECTURE & DEEP SPECIFICATIONS WORKBENCH          -->
+    <!-- (Looks like a SaaS Console, yet keeps 100% rich detail right on this page) -->
+    <!-- ========================================================================= -->
+    <section id="specifications" class="section-block">
+      <div class="section-header-row">
+        <div>
+          <div class="eyebrow-tag">In-Page Technical Documentation</div>
+          <h2 class="section-title" data-i18n="wb_title">Deep Platform Architecture & Feature Specifications</h2>
+        </div>
+        <button class="filter-pill" type="button" onclick="showAllSpecs()" id="expandAllBtn">View All 3 Full Specs Together</button>
+      </div>
+
+      <div class="workbench">
+        <div class="spec-tabs" role="tablist">
+          <button class="spec-tab active" type="button" data-target="spec-exam" onclick="activateSpec('spec-exam')">01 • CBT Assessment Engine (exam)</button>
+          <button class="spec-tab" type="button" data-target="spec-speed" onclick="activateSpec('spec-speed')">02 • 5G & SD-WAN Telemetry (speed)</button>
+          <button class="spec-tab" type="button" data-target="spec-calc" onclick="activateSpec('spec-calc')">03 • Financial & Civil Suite (calculator)</button>
+        </div>
+
+        <!-- PANEL 1: EXAM.SOFTSUTRA.ONLINE -->
+        <div id="spec-exam" class="spec-panel active">
+          <div class="spec-banner">
+            <div>
+              <h3>SoftSutra Online CBT Exam Portal (exam.softsutra.online)</h3>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">90-Day Live Mock Test Schedule, Per-Second Question Telemetry & All-India Scaled Ranking Platform</p>
+            </div>
+            <a class="btn-launch" style="flex:0 0 auto;" href="https://exam.softsutra.online" target="_blank" rel="noopener noreferrer">Open exam.softsutra.online ↗</a>
+          </div>
+
+          <div class="spec-bento">
+            <div class="spec-module">
+              <h4>1. 90-Day Live Discipline & Midnight Unlock</h4>
+              <p>Operates a structured 90-day live test schedule where a fresh paper unlocks automatically at 12:00 AM midnight. Missed prior-day exams automatically expire and lock to enforce real study discipline, while upcoming days remain locked until scheduled.</p>
+            </div>
+            <div class="spec-module">
+              <h4>2. Professional, National & State Exam Tracks</h4>
+              <p>Covers Chartered Accountant (CA), Judiciary Law (Prelims & Mains), IIT JEE, NEET Medical, UPSC Civil Services, UGC/CSIR NET, CUET, CTET, SSC CGL/CHSL, RRB NTPC, plus dedicated State PCS/GK tracks (Haryana 25% GK, UP, Bihar, Rajasthan, MP).</p>
+            </div>
+            <div class="spec-module">
+              <h4>3. Authentic Marking & Anti-Guess Submit Lock</h4>
+              <p>Enforces official durations (60–200 mins), 20–180 question matrices, and exact positive/negative marking. The final submit button unlocks only after completing minimum elapsed time and minimum attempted questions.</p>
+            </div>
+            <div class="spec-module">
+              <h4>4. Per-Second Question Timer & Short Tricks</h4>
+              <p>Post-submission review reveals exact seconds spent on every single question alongside conceptual logic, coaching shortcut tricks, and permanent cloud-archived scorecards.</p>
+            </div>
+            <div class="spec-module">
+              <h4>5. Anti-Cheat Proctoring & Crash Auto-Resume</h4>
+              <p>Instant warning popup with a 2-mark deduction per tab/app switch violation. Accidental browser closure or network reload resumes from the exact question and remaining timer with a 3-mark safeguard penalty.</p>
+            </div>
+            <div class="spec-module">
+              <h4>6. 50x Scaled Ranking, Tiers & 1-Click Cloud Sync</h4>
+              <p>Earn +10 daily points, +10 premier exam bonus, and 10% score bonus across Bronze, Silver, Gold, and Diamond badges. Features an interactive Owl mascot (30 reminder moods, 95+ celebration messages) and zero-OTP 10-digit mobile cloud login with Green/Red/Yellow single-screen mobile grid.</p>
+            </div>
+          </div>
+
+          <details class="deep-drawer">
+            <summary><span>🇮🇳 हिंदी में संपूर्ण विशेषताएँ पढ़ें (Read Full Hindi Summary on Same Page)</span> <span>▾</span></summary>
+            <div class="drawer-body">
+              <p>• <strong>90-दिवसीय लाइव शेड्यूल:</strong> हर रात 12:00 बजे नया पेपर अनलॉक होता है और बीता हुआ छूटा पेपर अपने-आप लॉक हो जाता है।</p>
+              <p>• <strong>प्रोफेशनल व सरकारी परीक्षाएँ:</strong> UPSC, IIT JEE, NEET मेडिकल, चार्टर्ड अकाउंटेंट (CA), ज्यूडिशियरी लॉ, UGC NET, SSC, रेलवे तथा हरियाणा (25% हरियाणा जीके), यूपी, बिहार, राजस्थान व एमपी की राज्य परीक्षाएँ।</p>
+              <p>• <strong>एंटी-चीट, शॉर्ट ट्रिक्स व 1-क्लिक लॉगिन:</strong> हर सवाल का सेकंड-वार समय, कोचिंग शॉर्ट ट्रिक्स, टैब बदलने पर 2 अंक कटौती, क्रैश होने पर ऑटो-रिज्यूम, 50 गुना लाइव कॉम्पिटिशन रैंक, उल्लू मैस्कॉट और बिना OTP मोबाइल लॉगिन।</p>
+            </div>
+          </details>
+        </div>
+
+        <!-- PANEL 2: SPEED.SOFTSUTRA.ONLINE -->
+        <div id="spec-speed" class="spec-panel">
+          <div class="spec-banner">
+            <div>
+              <h3>SoftSutra Enterprise 5G & Fiber Speed Telemetry (speed.softsutra.online)</h3>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">Multi-Stream TCP Saturation, SD-WAN Bufferbloat Diagnostics & 600m Geohash Cellular Benchmarking</p>
+            </div>
+            <a class="btn-launch cyan" style="flex:0 0 auto;" href="https://speed.softsutra.online" target="_blank" rel="noopener noreferrer">Open speed.softsutra.online ↗</a>
+          </div>
+
+          <div class="spec-bento">
+            <div class="spec-module">
+              <h4>1. 6-Stream TCP Saturation (Mbps & Real MB/s)</h4>
+              <p>Single HTTP threads cannot saturate 5G NR mmWave or gigabit FTTH links due to TCP slow-start limits. Our engine opens six concurrent binary streams across global CDN edge nodes, discards initial handshake ramp-up, and computes 85th-percentile steady-state line rates (Mbps) plus actual OS file transfer speeds (MB/s).</p>
+            </div>
+            <div class="spec-module">
+              <h4>2. VoIP, Cloud Gaming & SD-WAN Bufferbloat QoS</h4>
+              <p>Measures both idle round-trip latency (Unloaded Ping) and active full-load queuing delay (Loaded Ping) so network administrators, algorithmic traders, and cloud gamers can verify Smart Queue Management (SQM) and enterprise router QoS health.</p>
+            </div>
+            <div class="spec-module">
+              <h4>3. Offline-First PWA Zero-Overhead Caching</h4>
+              <p>Engineered with a Progressive Web App Service Worker shell cached locally in device memory on first visit. Subsequent launches consume zero UI network bytes—dedicating 100% of link capacity to pure speed measurement.</p>
+            </div>
+            <div class="spec-module">
+              <h4>4. Post-Test Ad Isolation & 6-Char Geohash Clustering</h4>
+              <p>Display ads remain strictly deferred until download, upload, and ping benchmarks are 100% finished. Cellular tests cluster into ~600m 6-character Geohash sectors (excluding fixed broadband) for authentic hyper-local tower intelligence.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL 3: CALCULATOR.SOFTSUTRA.ONLINE -->
+        <div id="spec-calc" class="spec-panel">
+          <div class="spec-banner">
+            <div>
+              <h3>SoftSutra All-in-One Financial & Civil Calculation Suite (calculator.softsutra.online)</h3>
+              <p style="font-size:0.9rem; color:var(--text-secondary);">Global Forex, Mortgage/Loan EMI, Tax Slabs, Heron's Land Valuation & Client Audit Trail Workstation</p>
+            </div>
+            <a class="btn-launch emerald" style="flex:0 0 auto;" href="https://calculator.softsutra.online" target="_blank" rel="noopener noreferrer">Open calculator.softsutra.online ↗</a>
+          </div>
+
+          <div class="spec-bento">
+            <div class="spec-module">
+              <h4>1. Civil Geomatics & Irregular Land Area (Heron's Formula)</h4>
+              <ul>
+                <li><strong>Asymmetric Plot Valuation:</strong> Input 4 boundary sides (AB, BC, CD, DA) + Diagonal (AC) with market rate per sq ft for exact irregular plot area and property value.</li>
+                <li><strong>Multi-Shape & Contractor Aggregator:</strong> Rectangle, Square, Circle, Triangle, Trapezium, Ellipse & multi-section sum mode.</li>
+                <li><strong>3D Room Paint/Putty/Tile Estimator:</strong> Ceiling/floor checkboxes, automatic multi-door/window area deduction & labor/material cost budgeting.</li>
+              </ul>
+            </div>
+            <div class="spec-module">
+              <h4>2. Banking, Loan EMI, Tax & 166+ Global Forex</h4>
+              <ul>
+                <li><strong>Smart Loan/Mortgage EMI:</strong> Principal + Down Payment + File Charges across months/years.</li>
+                <li><strong>166+ Live Currency Converter:</strong> Real-time global exchange rates (USD, EUR, GBP, AED, JPY, INR) with 1-tap swap.</li>
+                <li><strong>Tax/GST & FD Maturity:</strong> Instant tax inclusive/exclusive slabs (0.25%, 3%, 5%, 12%, 18%, 40% & custom) plus Fixed Deposit returns and Currency Denomination Note Counter.</li>
+              </ul>
+            </div>
+            <div class="spec-module">
+              <h4>3. Sales Commission & Core Scientific/Dev Modes</h4>
+              <ul>
+                <li><strong>4 Commercial Models:</strong> Flat Rate, Base Salary + Incentive, Graduated Tier Slabs & Gross Margin Commission with post-tax Net Amount toggle.</li>
+                <li><strong>3 Core Calculators:</strong> Standard ('00' fast keypad), Scientific (trigonometry/logs) & Programmer (Binary/Hex/Base logic).</li>
+              </ul>
+            </div>
+            <div class="spec-module">
+              <h4>4. Daily Utilities & Client Audit Trail (+ Notes)</h4>
+              <ul>
+                <li><strong>Utility Pack:</strong> Travel & Fuel Mileage/Toll cost per km, Live Age & Birthday Countdown, 6-in-1 Unit Converter, Discount & Group Split Bill.</li>
+                <li><strong>Timestamped Audit Logs:</strong> Dedicated module logs where users attach custom client/project notes (<code>+ Note</code>) in AMOLED Dark UI.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SMART ADSENSE SLOT 3 -->
+    <div class="ad-slot-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="3333333333"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- =============================================================== -->
+    <!-- EXPANDED 14-ITEM GLOBAL & MULTILINGUAL KNOWLEDGE BASE / FAQ     -->
+    <!-- =============================================================== -->
+    <section id="faq" class="section-block">
+      <div class="section-header-row">
+        <div>
+          <div class="eyebrow-tag">Interactive Knowledge Base</div>
+          <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions (Global & Ecosystem Guide)</h2>
+        </div>
+        <div class="filter-pills">
+          <button class="filter-pill active" type="button" onclick="filterFaq('all', this)">All (14)</button>
+          <button class="filter-pill" type="button" onclick="filterFaq('global', this)">Ecosystem & Global</button>
+          <button class="filter-pill" type="button" onclick="filterFaq('exam', this)">CBT Exam</button>
+          <button class="filter-pill" type="button" onclick="filterFaq('speed', this)">5G Telemetry</button>
+          <button class="filter-pill" type="button" onclick="filterFaq('calc', this)">Finance & Civil</button>
+        </div>
+      </div>
+
+      <div class="faq-grid" id="faqGrid">
+        <details class="faq-card" data-fcat="global" open>
+          <summary><span>1. Can users outside India use SoftSutra web applications?</span><span>+</span></summary>
+          <p>Yes. SoftSutra is engineered for universal global compatibility. International users regularly use our 166+ live global currency forex converter, multi-stream CDN speed & bufferbloat diagnostics, scientific/binary programmer calculators, loan amortization tools, and geometric land area suites in standard English.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="global" open>
+          <summary><span>2. Is SoftSutra limited to only three web portals, or will more apps launch?</span><span>+</span></summary>
+          <p>SoftSutra is a continuously expanding multi-subdomain cloud ecosystem. While CBT Assessment, Enterprise Speed Telemetry, and Smart Financial/Civil Calculator are currently in live production, upcoming modular subdomains include Client-Side Document/PDF Intelligence, DevOps DNS/SSL Tools, and Business Automation suites.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="global">
+          <summary><span>3. Do I need to download or install any mobile app or desktop software?</span><span>+</span></summary>
+          <p>No installation is required. Every SoftSutra subdomain runs on modern Progressive Web App (PWA) cloud standards across Android, iOS, Windows, macOS, and Linux browsers, opening directly in a dedicated tab.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="global">
+          <summary><span>4. How does SoftSutra protect user privacy, financial inputs, and test records?</span><span>+</span></summary>
+          <p>Calculation logs and custom audit notes are stored privately in your browser storage, speed telemetry avoids collecting personally identifiable files, and all connections are encrypted over HTTPS/TLS edge infrastructure.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="global">
+          <summary><span>5. How can I switch between English and Hindi on SoftSutra?</span><span>+</span></summary>
+          <p>Click the <strong>🌐 हिं / EN</strong> button in the top navigation bar at any time to toggle the primary interface language instantly without reloading the page, or expand the bilingual specification drawers inside the workbench.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="exam">
+          <summary><span>6. How does the 90-day live CBT test schedule maintain exam discipline?</span><span>+</span></summary>
+          <p>On exam.softsutra.online, a new mock paper unlocks every night at 12:00 AM. Any unattempted paper from a previous date automatically expires and locks permanently, ensuring consistent daily preparation rather than last-minute backlog cramming.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="exam">
+          <summary><span>7. Which competitive and professional exams are supported on the CBT portal?</span><span>+</span></summary>
+          <p>The platform covers Chartered Accountancy (CA), Judiciary Law (Prelims & Mains), IIT JEE, NEET Medical, UPSC Civil Services, UGC & CSIR NET, CUET, CTET, SSC CGL/CHSL, Railways RRB NTPC, and State Government exams (Haryana, UP, Bihar, Rajasthan, MP).</p>
+        </details>
+
+        <details class="faq-card" data-fcat="exam">
+          <summary><span>8. What happens if my browser closes or a phone call interrupts a live CBT test?</span><span>+</span></summary>
+          <p>Auto-Resume crash recovery preserves your exact question state and remaining countdown timer, resuming seamlessly with a minor 3-mark safeguard penalty. Intentional tab switching triggers an anti-cheat warning and a 2-mark deduction.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="speed">
+          <summary><span>9. Why does SoftSutra Speed Test show both Mbps and MB/s?</span><span>+</span></summary>
+          <p>Telecom providers advertise line speed in Megabits per second (Mbps), whereas operating systems download files in Megabytes per second (MB/s, roughly 1/8th of Mbps). Showing steady-state 85th-percentile values for both eliminates confusion.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="speed">
+          <summary><span>10. What is Bufferbloat (Unloaded vs. Loaded Ping) and why does it matter for 5G & Fiber?</span><span>+</span></summary>
+          <p>Bufferbloat occurs when router packet queues swell during heavy downloads, causing video call freezes and gaming lag spikes. Comparing Unloaded Ping against Loaded Ping diagnoses real-world QoS stability for VoIP, Zoom/Teams, and cloud gaming.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="speed">
+          <summary><span>11. Do advertisements slow down or interfere with internet speed measurements?</span><span>+</span></summary>
+          <p>Never. On speed.softsutra.online, third-party ad scripts are strictly deferred until download, upload, and latency tests are 100% finished, and the PWA shell loads from local device cache with zero network overhead.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="calc">
+          <summary><span>12. How do civil contractors and property buyers measure irregular 4-sided plots?</span><span>+</span></summary>
+          <p>Using the Irregular Land Area (Heron's Formula) tool on calculator.softsutra.online, enter the four unequal boundary lengths (AB, BC, CD, DA) and one diagonal (AC) to split the plot into triangles and compute exact area plus total valuation.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="calc">
+          <summary><span>13. How does the 3D Room Paint, Putty & Tile Estimator save material costs?</span><span>+</span></summary>
+          <p>Users enter room dimensions and height, toggle ceiling or floor inclusion with one click, and subtract multiple doors and windows automatically—generating exact net square footage and total labor/material cost estimates.</p>
+        </details>
+
+        <details class="faq-card" data-fcat="calc">
+          <summary><span>14. Can accountants and businesses attach client names to saved calculations?</span><span>+</span></summary>
+          <p>Yes. Every calculation across Banking EMI, Forex, Cash Denomination, Commission, and Land Area logs an automatic timestamp and allows adding a custom <code>+ Note</code> label for effortless client audit tracking.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- SMART ADSENSE SLOT 4 (Multiplex / Bottom Native Unit) -->
+    <div class="ad-slot-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-format="autorelaxed"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="4444444444"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  </main>
+
+  <!-- Enterprise Trust & AdSense Compliance Footer -->
+  <footer id="trust">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <h4>SoftSutra Cloud Ecosystem</h4>
+          <p style="font-size:0.86rem; color:var(--text-secondary); margin-bottom:10px;">
+            Engineering precision zero-install cloud web applications across Assessment Analytics, Enterprise Network Telemetry, FinTech Modeling, and Civil Geomatics for global and Indian users.
+          </p>
+          <p style="font-size:0.82rem; color:var(--text-muted);">
+            <strong>Founder & Lead Architect:</strong> Raman Sharma<br />
+            <strong>Operations:</strong> Sarsa, Kurukshetra, Haryana, India
+          </p>
+        </div>
+
+        <div>
+          <h4>Production Cloud Apps</h4>
+          <ul class="footer-list">
+            <li><a href="https://exam.softsutra.online" target="_blank" rel="noopener noreferrer">CBT Exam Cloud ↗</a></li>
+            <li><a href="https://speed.softsutra.online" target="_blank" rel="noopener noreferrer">5G Speed Telemetry ↗</a></li>
+            <li><a href="https://calculator.softsutra.online" target="_blank" rel="noopener noreferrer">Smart Calculator Suite ↗</a></li>
+            <li><a href="#roadmap">2026–27 Product Pipeline</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Architecture & Docs</h4>
+          <ul class="footer-list">
+            <li><a href="#specifications" onclick="activateSpec('spec-exam')">Assessment Engine Specs</a></li>
+            <li><a href="#specifications" onclick="activateSpec('spec-speed')">Multi-Stream TCP Specs</a></li>
+            <li><a href="#specifications" onclick="activateSpec('spec-calc')">Geomatics & Forex Specs</a></li>
+            <li><a href="#faq">Global FAQ Center</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Trust, Legal & Compliance</h4>
+          <ul class="footer-list">
+            <li><button type="button" onclick="openLegal('about')">About SoftSutra & Standards</button></li>
+            <li><button type="button" onclick="openLegal('privacy')">Privacy & Cookie Policy (GDPR/AdSense)</button></li>
+            <li><button type="button" onclick="openLegal('terms')">Terms of Service</button></li>
+            <li><button type="button" onclick="openLegal('disclaimer')">Engineering Disclaimer</button></li>
+            <li><button type="button" onclick="openLegal('contact')">Contact & Support Desk</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026–2027 SoftSutra (softsutra.online). All rights reserved globally.</span>
+        <span>Built on Edge Cloud Infrastructure • Global & Pan-India Ready</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GDPR / Global AdSense Cookie Consent Banner -->
+  <div class="cookie-bar" id="cookieBar" role="region" aria-label="Cookie Consent">
+    <p>
+      We use essential storage and Google AdSense cookies to deliver personalized content, analyze traffic, and keep SoftSutra's cloud tools free worldwide.
+      <button type="button" onclick="openLegal('privacy')" style="background:none;border:none;color:var(--accent-2);cursor:pointer;font-weight:700;">Learn more</button>
+    </p>
+    <div style="display:flex; gap:8px;">
+      <button class="ctrl-btn" type="button" onclick="acceptCookies('essential')">Essential Only</button>
+      <button class="ctrl-btn" type="button" style="background:var(--accent);color:#fff;border-color:var(--accent);" onclick="acceptCookies('all')">Accept All</button>
+    </div>
+  </div>
+
+  <!-- Legal & Compliance Modal -->
+  <div class="modal-overlay" id="legalModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+        <h3 id="legalTitle">Legal Documentation</h3>
+        <button class="ctrl-btn" type="button" onclick="closeLegal()">✕ Close</button>
+      </div>
+      <div id="legalContent" style="font-size:0.9rem; color:var(--text-secondary); display:grid; gap:10px;"></div>
+    </div>
+  </div>
+
+  <script>
+    // 1. Dark / Light Theme Toggle (Defaults to sleek SaaS Dark, remembers choice)
+    const themeBtn = document.getElementById('themeBtn');
+    const storedTheme = localStorage.getItem('ss_theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', storedTheme);
+    themeBtn.textContent = storedTheme === 'dark' ? '☀️' : '🌙';
+
+    themeBtn.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('ss_theme', next);
+      themeBtn.textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+
+    // 2. Mobile Navigation Drawer
+    function toggleMobileMenu() {
+      document.getElementById('mobileDrawer').classList.toggle('open');
+    }
+    document.getElementById('menuBtn').addEventListener('click', toggleMobileMenu);
+
+    // 3. Global English <-> Hindi Instant Bilingual Switcher
+    const i18n = {
+      en: {
+        nav_apps: 'Products',
+        nav_specs: 'Architecture & Specs',
+        nav_roadmap: '2026–27 Pipeline',
+        nav_faq: 'Global FAQ',
+        nav_about: 'About',
+        hero_badge: '• Modular Zero-Install Web Software for Global & Indian Workflows',
+        hero_title: 'One Intelligent Cloud Ecosystem. <span class="text-gradient">Precision Web Apps Built for Scale.</span>',
+        hero_sub: 'SoftSutra engineers fast, browser-native SaaS platforms and specialized micro-utilities—spanning competitive assessment engines, enterprise network telemetry, global financial & civil modeling, and upcoming AI cloud tools. Zero downloads. Instant launch in a new tab.',
+        dock_more: '🧩 + Upcoming Cloud Labs',
+        m1: 'Edge PWA Cloud Architecture',
+        m2: 'Global Forex, Units & TCP Nodes',
+        m3: 'Modular Subdomain Infrastructure',
+        m4: 'Instant Local-Cache UI Response',
+        dir_kicker: 'Cloud Application Directory',
+        dir_title: 'Active Platforms & Modular Cloud Pipeline',
+        app1_title: 'SoftSutra CBT Assessment & Analytics Cloud',
+        app1_desc: 'Disciplined 90-day live Computer-Based Test (CBT) simulation engine for Chartered Accountancy (CA), Judiciary Law, IIT JEE, NEET Medical, UPSC, UGC NET, SSC & State Civil Services.',
+        app2_title: 'Enterprise 5G, Fiber & SD-WAN Telemetry',
+        app2_desc: 'Zero-interference global network diagnostics utilizing 6 concurrent TCP streams across edge CDNs to measure true Mbps/MB/s throughput, VoIP/Gaming Bufferbloat QoS, and 600m Geohash cell benchmarks.',
+        app3_title: 'Smart Financial, Forex & Civil Geomatics Suite',
+        app3_desc: 'All-in-one digital workstation combining Mortgage/Loan EMI amortization, 166+ live global forex currencies, GST tax slabs, Heron\'s Formula irregular land valuation, 3D room surface estimation, and client audit logs.',
+        launch_exam: 'Launch Exam Portal ↗',
+        launch_speed: 'Launch Speed Test ↗',
+        launch_calc: 'Launch Calculator ↗',
+        view_specs: 'Specs ▾',
+        wb_title: 'Deep Platform Architecture & Feature Specifications',
+        faq_title: 'Frequently Asked Questions (Global & Ecosystem Guide)'
+      },
+      hi: {
+        nav_apps: 'प्रोडक्ट्स',
+        nav_specs: 'आर्किटेक्चर व फीचर्स',
+        nav_roadmap: 'आगामी टूल्स',
+        nav_faq: 'सामान्य प्रश्न',
+        nav_about: 'परिचय',
+        hero_badge: '• भारत और विश्व के लिए ज़ीरो-इंस्टॉल मॉड्यूलर क्लाउड सॉफ्टवेयर सूट',
+        hero_title: 'एक स्मार्ट क्लाउड इकोसिस्टम — <span class="text-gradient">हर आधुनिक ज़रूरत के लिए प्रीमियम वेब ऐप्स।</span>',
+        hero_sub: 'SoftSutra तेज़, ब्राउज़र-आधारित क्लाउड ऐप्स और स्मार्ट डिजिटल टूल्स विकसित करता है — जिसमें ऑनलाइन CBT परीक्षा इंजन, एंटरप्राइज 5G व फाइबर टेलीमेट्री, ग्लोबल फाइनेंस व सिविल लैंड कैलकुलेटर और आने वाले नए सबडोमेन शामिल हैं। बिना ऐप डाउनलोड किए सीधे नई टैब में खोलें।',
+        dock_more: '🧩 + आगामी क्लाउड ऐप्स',
+        m1: 'एज PWA क्लाउड तकनीक',
+        m2: '166+ ग्लोबल करेंसी व नेटवर्क नोड्स',
+        m3: 'मॉड्यूलर सबडोमेन विस्तार क्षमता',
+        m4: 'सुपरफास्ट लोकल-कैश रिस्पॉन्स',
+        dir_kicker: 'क्लाउड एप्लिकेशन डायरेक्टरी',
+        dir_title: 'सक्रिय प्लेटफॉर्म्स और आगामी सबडोमेन पाइपलाइन',
+        app1_title: 'सॉफ्टसूत्र CBT परीक्षा एवं परफॉर्मेंस क्लाउड',
+        app1_desc: 'CA, ज्यूडिशियरी लॉ, IIT JEE, NEET मेडिकल, UPSC, UGC NET, SSC व राज्य परीक्षाओं के लिए 90-दिवसीय लाइव टेस्ट शेड्यूल, सेकंड-वार टाइम ट्रैकिंग और 50x ऑल-इंडिया रैंकिंग।',
+        app2_title: 'एंटरप्राइज 5G, फाइबर व SD-WAN स्पीड टेलीमेट्री',
+        app2_desc: '6 समानांतर TCP स्ट्रीम्स के साथ असली Mbps व MB/s बैंडविड्थ, क्लाउड गेमिंग व VoIP Bufferbloat पिंग और 600 मीटर मोबाइल टावर रैंकिंग दिखाने वाला ज़ीरो-ओवरहेड प्लेटफॉर्म।',
+        app3_title: 'स्मार्ट फाइनेंस, फॉरेक्स व सिविल लैंड कैलकुलेटर',
+        app3_desc: 'लोन EMI, 166+ लाइव विदेशी मुद्राएँ, GST स्लैब, हेरॉन फॉर्मूला प्लॉट रकबा व कीमत, 3D पेंट/टाइल एस्टीमेटर, कमीशन और कस्टम नोट्स हिस्ट्री वाला ऑल-इन-वन वर्कस्टेशन।',
+        launch_exam: 'परीक्षा पोर्टल खोलें ↗',
+        launch_speed: 'स्पीड टेस्ट खोलें ↗',
+        launch_calc: 'कैलकुलेटर खोलें ↗',
+        view_specs: 'विवरण ▾',
+        wb_title: 'सभी प्लेटफॉर्म्स की विस्तृत तकनीकी खासियतें',
+        faq_title: 'अक्सर पूछे जाने वाले प्रश्न (ग्लोबल एवं इकोसिस्टम गाइड)'
+      }
+    };
+
+    let currentLang = localStorage.getItem('ss_lang') || 'en';
+    const langBtn = document.getElementById('langBtn');
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('ss_lang', lang);
+      document.documentElement.lang = lang;
+      langBtn.textContent = lang === 'en' ? '🌐 हिं' : '🌐 EN';
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (i18n[lang][key]) el.innerHTML = i18n[lang][key];
+      });
+    }
+    applyLang(currentLang);
+    langBtn.addEventListener('click', () => applyLang(currentLang === 'en' ? 'hi' : 'en'));
+
+    // 4. Product Directory Filter
+    function filterApps(cat, btn) {
+      btn.parentElement.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('#appGrid .saas-card').forEach(card => {
+        const cats = card.getAttribute('data-cat') || '';
+        card.style.display = (cat === 'all' || cats.includes(cat)) ? 'flex' : 'none';
+      });
+    }
+
+    // 5. Specification Workbench Switcher + Expand All
+    function activateSpec(panelId) {
+      document.querySelectorAll('.spec-tab').forEach(t => {
+        t.classList.toggle('active', t.getAttribute('data-target') === panelId);
+      });
+      document.querySelectorAll('.spec-panel').forEach(p => {
+        p.classList.toggle('active', p.id === panelId);
+      });
+    }
+
+    function showAllSpecs() {
+      document.querySelectorAll('.spec-panel').forEach(p => p.classList.add('active'));
+    }
+
+    // 6. Categorized FAQ Filter
+    function filterFaq(cat, btn) {
+      btn.parentElement.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('#faqGrid .faq-card').forEach(item => {
+        const icat = item.getAttribute('data-fcat');
+        item.style.display = (cat === 'all' || icat === cat) ? 'block' : 'none';
+      });
+    }
+
+    // 7. Cookie Consent Persistence
+    const cookieBar = document.getElementById('cookieBar');
+    if (!localStorage.getItem('ss_cookie_consent')) {
+      cookieBar.classList.add('show');
+    }
+    function acceptCookies(level) {
+      localStorage.setItem('ss_cookie_consent', level);
+      cookieBar.classList.remove('show');
+    }
+
+    // 8. AdSense-Ready Trust & Legal Modals
+    const legalDocs = {
+      about: {
+        title: 'About SoftSutra Cloud & Engineering Standards',
+        body: '<p><strong>SoftSutra (softsutra.online)</strong> is an independent cloud software startup founded and engineered by <strong>Raman Sharma</strong> in Sarsa, Kurukshetra, Haryana, India.</p><p>Our mission is to build ultra-fast, zero-install browser applications that solve complex educational, network engineering, financial, and civil calculation problems for users across India and internationally—without bloated app downloads or paywalls.</p>'
+      },
+      privacy: {
+        title: 'Global Privacy Policy, GDPR/DPDP Rights & Google AdSense Disclosure',
+        body: '<p>SoftSutra respects user privacy across softsutra.online and all official subdomains (exam, speed, calculator, and upcoming cloud modules).</p><p><strong>Google AdSense & DoubleClick DART Cookies:</strong> Third-party vendors, including Google, use cookies to serve ads based on a user\'s prior visits to this website or other websites. Users in the EU/EEA, UK, California, India, and worldwide may opt out of personalized advertising at any time by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener" style="color:var(--accent-2);">Google Ads Settings</a>.</p><p><strong>Local Storage:</strong> Calculator audit logs, theme preferences, and language choices remain stored locally on your device.</p>'
+      },
+      terms: {
+        title: 'Terms of Service',
+        body: '<p>By accessing softsutra.online or any SoftSutra subdomain, you agree to use our software applications lawfully. Assessment mock tests are independent educational simulations and do not claim government affiliation. Automated scraping or unauthorized cloning of SoftSutra proprietary UI and code is prohibited.</p>'
+      },
+      disclaimer: {
+        title: 'Engineering & Financial Disclaimer',
+        body: '<p>While SoftSutra\'s financial EMI models, live forex feeds, TCP network telemetry, and Heron\'s Formula land area tools are engineered to high mathematical precision, users should verify final legal property deeds, tax filings, and commercial loan agreements with certified professionals.</p>'
+      },
+      contact: {
+        title: 'Contact SoftSutra Support & Partnerships',
+        body: '<p><strong>Founder & Systems Architect:</strong> Raman Sharma</p><p><strong>Registered Base:</strong> Village Sarsa, Tehsil Pehowa, District Kurukshetra, Haryana, India</p><p><strong>Ecosystem Portal:</strong> https://softsutra.online</p><p><strong>Support & Inquiries:</strong> Reach out via official SoftSutra portal channels for enterprise feedback, bug reports, or advertising inquiries.</p>'
+      }
+    };
+
+    function openLegal(key) {
+      const doc = legalDocs[key];
+      if (!doc) return;
+      document.getElementById('legalTitle').textContent = doc.title;
+      document.getElementById('legalContent').innerHTML = doc.body;
+      document.getElementById('legalModal').classList.add('active');
+    }
+
+    function closeLegal() {
+      document.getElementById('legalModal').classList.remove('active');
+    }
+
+    document.getElementById('legalModal').addEventListener('click', (e) => {
+      if (e.target.id === 'legalModal') closeLegal();
+    });
+  </script>
+</body>
+</html>
