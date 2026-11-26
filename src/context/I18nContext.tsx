@@ -16,7 +16,7 @@ const dictionaries = ui as Record<Language, Dictionary>;
 export function I18nProvider({ children }: { children: ReactNode }): JSX.Element {
   const [language, setLanguage] = useState<Language>(() => {
     try {
-      return window.localStorage.getItem('softsutra-lang') === 'hi' ? 'hi' : 'en';
+      return window.localStorage.getItem('apptray-lang') === 'hi' ? 'hi' : 'en';
     } catch {
       return 'en';
     }
@@ -25,7 +25,7 @@ export function I18nProvider({ children }: { children: ReactNode }): JSX.Element
   useEffect(() => {
     document.documentElement.lang = language;
     try {
-      window.localStorage.setItem('softsutra-lang', language);
+      window.localStorage.setItem('apptray-lang', language);
     } catch {
       /* ignore */
     }

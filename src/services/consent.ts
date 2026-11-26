@@ -1,6 +1,6 @@
 export type ConsentLevel = 'personalized' | 'essential';
 
-const STORAGE_KEY = 'softsutra-consent';
+const STORAGE_KEY = 'apptray-consent';
 
 export function getConsent(): ConsentLevel | null {
   try {
@@ -17,7 +17,7 @@ export function setConsent(level: ConsentLevel): void {
   } catch {
     /* storage can be disabled; continue with in-memory state */
   }
-  window.dispatchEvent(new CustomEvent<ConsentLevel>('softsutra:consent', { detail: level }));
+  window.dispatchEvent(new CustomEvent<ConsentLevel>('AppTray Labs:consent', { detail: level }));
 }
 
 function requiresConsentRegion(): boolean {

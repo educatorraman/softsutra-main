@@ -2,7 +2,7 @@ import { Link } from '@tanstack/react-router';
 import { usePageMeta } from '../lib/seo';
 
 export function NotFoundPage(): React.JSX.Element {
-  usePageMeta('Page not found | SoftSutra', 'The requested SoftSutra page does not exist.', '/');
+  usePageMeta('Page not found | AppTray Labs', 'The requested AppTray Labs page does not exist.', '/');
   return (
     <section className="grid min-h-[50vh] place-items-center text-center">
       <div>
@@ -15,7 +15,7 @@ export function NotFoundPage(): React.JSX.Element {
           to="/"
           className="mt-6 inline-flex min-h-11 items-center rounded-lg bg-brand-600 px-5 font-semibold text-white"
         >
-          Back to SoftSutra
+          Back to AppTray Labs
         </Link>
       </div>
     </section>

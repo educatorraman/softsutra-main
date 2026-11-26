@@ -25,7 +25,7 @@ export function InstallPrompt(): React.JSX.Element | null {
 
   return (
     <aside
-      aria-label="Install SoftSutra"
+      aria-label="Install AppTray Labs"
       className={`safe-top fixed inset-x-0 top-0 z-[105] mx-auto max-w-xl border-b border-brand-200 bg-white px-4 py-3 shadow-lg transition-transform duration-300 dark:border-brand-500/30 dark:bg-slate-900 ${leaving ? '-translate-y-full' : 'translate-y-0'}`}
     >
       <div className="flex items-center gap-3">

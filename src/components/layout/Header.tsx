@@ -30,12 +30,12 @@ export function Header(): JSX.Element {
         <Link
           to="/"
           className="flex min-h-11 items-center gap-2 rounded-lg pr-2 no-select"
-          aria-label="SoftSutra home"
+          aria-label="AppTray Labs home"
         >
           <span className="grid size-9 place-items-center rounded-xl bg-brand-600 text-base font-black text-white shadow-md shadow-brand-600/25">
             S
           </span>
-          <span className="text-lg font-extrabold tracking-tight">SoftSutra</span>
+          <span className="text-lg font-extrabold tracking-tight">AppTray Labs</span>
         </Link>
 
         <nav aria-label="Primary navigation" className="ml-6 hidden items-center gap-1 lg:flex">

@@ -33,7 +33,7 @@ export function buildStructuredData(): Record<string, unknown> {
       {
         '@type': 'Organization',
         '@id': `${portal}#organization`,
-        name: 'SoftSutra',
+        name: 'AppTray Labs',
         url: portal,
         founder: { '@type': 'Person', name: founder.name },
         address: {
@@ -46,8 +46,8 @@ export function buildStructuredData(): Record<string, unknown> {
       {
         '@type': 'WebSite',
         '@id': `${portal}#website`,
-        name: 'SoftSutra',
-        alternateName: 'SoftSutra digital utility ecosystem',
+        name: 'AppTray Labs',
+        alternateName: 'AppTray Labs digital utility ecosystem',
         url: portal,
         publisher: { '@id': `${portal}#organization` },
         inLanguage: 'en',

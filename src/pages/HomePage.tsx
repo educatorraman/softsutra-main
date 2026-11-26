@@ -191,7 +191,7 @@ export function HomePage(): React.JSX.Element {
             to="/about"
             className="inline-flex min-h-11 items-center rounded-lg border border-brand-300 px-5 text-sm font-bold text-brand-700 dark:border-brand-500/40 dark:text-brand-50"
           >
-            How SoftSutra works
+            How AppTray Labs works
           </Link>
         </div>
       </section>

@@ -17,7 +17,7 @@ async function singleRtt(): Promise<number> {
   const timer = window.setTimeout(() => controller.abort(), 3000);
   const started = performance.now();
   try {
-    const url = `./?__softsutra_ping=${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    const url = `./?__apptray_ping=${Date.now()}-${Math.random().toString(36).slice(2)}`;
     const response = await fetch(url, { cache: 'no-store', signal: controller.signal });
     await response.arrayBuffer();
     return performance.now() - started;

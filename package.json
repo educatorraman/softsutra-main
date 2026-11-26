@@ -1,9 +1,9 @@
 {
-  "name": "softsutra-portal",
+  "name": "apptray-labs-portal",
   "private": true,
   "version": "4.0.0",
   "type": "module",
-  "description": "SoftSutra — privacy-first, offline-capable digital utility ecosystem portal",
+  "description": "AppTray Labs — privacy-first, offline-capable digital utility ecosystem portal",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc --noEmit && vite build",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate dependency-free PNG PWA icons for SoftSutra (mala ring mark)."""
+"""Generate dependency-free PNG PWA icons for AppTray Labs (mala ring mark)."""
 import math
 import os
 import struct

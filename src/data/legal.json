@@ -1,13 +1,13 @@
 {
   "about": {
-    "title": "About SoftSutra",
-    "lead": "SoftSutra is an independent software initiative founded by Raman Sharma and based in Village Sarsa, Pehowa, Kurukshetra, Haryana, India. We build fast, privacy-respecting browser tools that work across devices and remain useful even when the network does not.",
+    "title": "About AppTray Labs",
+    "lead": "AppTray Labs is an independent software initiative founded by Raman Sharma and based in Village Sarsa, Pehowa, Kurukshetra, Haryana, India. We build fast, privacy-respecting browser tools that work across devices and remain useful even when the network does not.",
     "updated": "24 November 2026",
     "sections": [
       {
         "heading": "Our mission",
         "paragraphs": [
-          "Useful software should be immediate, understandable and affordable. SoftSutra turns everyday digital friction — a loan calculation, a network slowdown, a mock test, a repeated mantra, a document handoff — into focused tools that open in a browser without an install ceremony.",
+          "Useful software should be immediate, understandable and affordable. AppTray Labs turns everyday digital friction — a loan calculation, a network slowdown, a mock test, a repeated mantra, a document handoff — into focused tools that open in a browser without an install ceremony.",
           "We publish original guides beside every tool so readers understand the decision behind the number or result. This editorial layer is written for people, not for ad networks, and it helps contextual advertising stay relevant without interrupting the task."
         ]
       },
@@ -34,13 +34,13 @@
       {
         "heading": "Accountability",
         "paragraphs": [
-          "SoftSutra is maintained by a small team. Founder correspondence is handled at {{FOUNDER_EMAIL}}, and product support requests can be sent to {{SUPPORT_EMAIL}}."
+          "AppTray Labs is maintained by a small team. Founder correspondence is handled at {{FOUNDER_EMAIL}}, and product support requests can be sent to {{SUPPORT_EMAIL}}."
         ]
       }
     ]
   },
   "contact": {
-    "title": "Contact SoftSutra",
+    "title": "Contact AppTray Labs",
     "lead": "Questions about a tool, a calculation, a privacy request or an advertising enquiry? Use the direct addresses below or the form on this page.",
     "updated": "24 November 2026",
     "responseTime": "We aim to respond within two working days.",
@@ -55,7 +55,7 @@
       {
         "heading": "Postal identity",
         "paragraphs": [
-          "Raman Sharma, SoftSutra, Village Sarsa, Tehsil Pehowa, District Kurukshetra, Haryana, India."
+          "Raman Sharma, AppTray Labs, Village Sarsa, Tehsil Pehowa, District Kurukshetra, Haryana, India."
         ]
       },
       {
@@ -67,14 +67,14 @@
       {
         "heading": "Privacy and deletion requests",
         "paragraphs": [
-          "For access, correction or deletion of information you believe SoftSutra holds, write to {{SUPPORT_EMAIL}} with the subject line Privacy Request. Local-only records can also be cleared from your browser's site-data settings at any time."
+          "For access, correction or deletion of information you believe AppTray Labs holds, write to {{SUPPORT_EMAIL}} with the subject line Privacy Request. Local-only records can also be cleared from your browser's site-data settings at any time."
         ]
       }
     ]
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lead": "This policy explains what the SoftSutra portal stores locally, which third parties may receive data when you view an advert, and the choices available to you.",
+    "lead": "This policy explains what the AppTray Labs portal stores locally, which third parties may receive data when you view an advert, and the choices available to you.",
     "updated": "24 November 2026",
     "sections": [
       {
@@ -114,7 +114,7 @@
       {
         "heading": "Children and sensitive data",
         "paragraphs": [
-          "SoftSutra tools are not directed at children under 13, and we do not knowingly collect personal information from them. Please do not enter passwords, full bank account numbers, medical records or other sensitive material into a demo widget."
+          "AppTray Labs tools are not directed at children under 13, and we do not knowingly collect personal information from them. Please do not enter passwords, full bank account numbers, medical records or other sensitive material into a demo widget."
         ]
       },
       {
@@ -127,13 +127,13 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lead": "These terms govern use of the SoftSutra portal and its sibling applications. By using them you accept the points below.",
+    "lead": "These terms govern use of the AppTray Labs portal and its sibling applications. By using them you accept the points below.",
     "updated": "24 November 2026",
     "sections": [
       {
         "heading": "Permitted use",
         "paragraphs": [
-          "You may use SoftSutra tools for personal, educational, household and small-business purposes. You must not use them to harass, defraud, infringe rights, violate law, or overload the infrastructure with automated traffic."
+          "You may use AppTray Labs tools for personal, educational, household and small-business purposes. You must not use them to harass, defraud, infringe rights, violate law, or overload the infrastructure with automated traffic."
         ]
       },
       {
@@ -145,13 +145,13 @@
       {
         "heading": "Exam preparation",
         "paragraphs": [
-          "Mock tests are independent practice simulations. SoftSutra is not affiliated with any government body, examination authority, university or publisher. Syllabus patterns and marking schemes shown in practice material may differ from a live examination."
+          "Mock tests are independent practice simulations. AppTray Labs is not affiliated with any government body, examination authority, university or publisher. Syllabus patterns and marking schemes shown in practice material may differ from a live examination."
         ]
       },
       {
         "heading": "Intellectual property",
         "paragraphs": [
-          "The layout, copy, icons, engines and data files of SoftSutra are protected. You may link to a tool, but you may not clone the interface, scrape content at scale, remove attribution, or distribute a modified copy as your own product without written permission."
+          "The layout, copy, icons, engines and data files of AppTray Labs are protected. You may link to a tool, but you may not clone the interface, scrape content at scale, remove attribution, or distribute a modified copy as your own product without written permission."
         ]
       },
       {
@@ -163,14 +163,14 @@
       {
         "heading": "Liability",
         "paragraphs": [
-          "To the maximum extent allowed by law, SoftSutra and its founder are not liable for indirect or consequential loss arising from use of a result, an offline cache, a third-party advert or a temporary outage."
+          "To the maximum extent allowed by law, AppTray Labs and its founder are not liable for indirect or consequential loss arising from use of a result, an offline cache, a third-party advert or a temporary outage."
         ]
       }
     ]
   },
   "disclaimer": {
     "title": "Disclaimer",
-    "lead": "Read this before relying on a number, a date, a diagnostic result or an educational preview from any SoftSutra property.",
+    "lead": "Read this before relying on a number, a date, a diagnostic result or an educational preview from any AppTray Labs property.",
     "updated": "24 November 2026",
     "sections": [
       {
@@ -206,7 +206,7 @@
       {
         "heading": "Documents and privacy",
         "paragraphs": [
-          "Checklists and readiness simulations do not guarantee that a cyber café, bank or government office will accept a document. Never share OTPs, PINs or full card numbers. SoftSutra does not act as your legal representative or data fiduciary for third-party portals."
+          "Checklists and readiness simulations do not guarantee that a cyber café, bank or government office will accept a document. Never share OTPs, PINs or full card numbers. AppTray Labs does not act as your legal representative or data fiduciary for third-party portals."
         ]
       }
     ]

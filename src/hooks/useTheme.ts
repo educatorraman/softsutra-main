@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 export type ThemeChoice = 'light' | 'dark' | 'system';
-const KEY = 'softsutra-theme';
+const KEY = 'apptray-theme';
 
 export function useTheme(): { theme: ThemeChoice; cycle: () => void } {
   const [theme, setTheme] = useState<ThemeChoice>(() => {

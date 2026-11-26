@@ -7,7 +7,7 @@ import { useInstall } from '../../context/InstallContext';
 import { apps, resolveCopy } from '../../lib/content';
 
 const LEGAL_LINKS = [
-  { to: '/about', label: 'About SoftSutra' },
+  { to: '/about', label: 'About AppTray Labs' },
   { to: '/contact', label: 'Contact' },
   { to: '/privacy-policy', label: 'Privacy Policy' },
   { to: '/terms', label: 'Terms of Service' },
@@ -23,7 +23,7 @@ export function Footer(): React.JSX.Element {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-2 lg:grid-cols-4">
         <section aria-labelledby="footer-brand">
           <h2 id="footer-brand" className="text-lg font-extrabold">
-            SoftSutra
+            AppTray Labs
           </h2>
           <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
             {resolveCopy(t('hero_sub'))}
@@ -70,7 +70,7 @@ export function Footer(): React.JSX.Element {
             <li>
               <button
                 type="button"
-                onClick={() => window.dispatchEvent(new Event('softsutra:consent-open'))}
+                onClick={() => window.dispatchEvent(new Event('AppTray Labs:consent-open'))}
                 className="text-left text-slate-600 hover:text-brand-700 hover:underline dark:text-slate-300 dark:hover:text-white"
               >
                 Privacy choices
@@ -112,7 +112,7 @@ export function Footer(): React.JSX.Element {
                   onClick={() => void install()}
                   className="mt-2 inline-flex min-h-11 items-center gap-2 rounded-lg border border-brand-200 px-3 text-sm font-semibold text-brand-700 dark:border-brand-500/40 dark:text-brand-50"
                 >
-                  <Download size={16} aria-hidden="true" /> Install SoftSutra
+                  <Download size={16} aria-hidden="true" /> Install AppTray Labs
                 </button>
               </li>
             )}
@@ -121,7 +121,7 @@ export function Footer(): React.JSX.Element {
       </div>
 
       <div className="border-t border-slate-200 py-5 text-center text-xs text-slate-500 dark:border-slate-800 dark:text-slate-500">
-        © {new Date().getFullYear()} SoftSutra. All rights reserved. Advertisements help keep every tool free.
+        © {new Date().getFullYear()} AppTrayLabs. All rights reserved. Advertisements help keep every tool free.
       </div>
     </footer>
   );

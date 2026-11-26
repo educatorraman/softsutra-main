@@ -9,7 +9,7 @@ class PortalDatabase extends Dexie {
   kv!: Table<KvRow, string>;
 
   constructor() {
-    super('softsutra-portal');
+    super('apptray-portal');
     this.version(1).stores({ kv: 'key' });
   }
 }

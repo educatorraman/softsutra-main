@@ -23,7 +23,7 @@ export function CafeWidget(): React.JSX.Element {
     const text = items
       .map((item) => `${checked.includes(item.id) ? '[x]' : '[ ]'} ${item.label} — ${item.detail}`)
       .join('\n');
-    const result = await shareText('SoftSutra Cafe document checklist', text, getAppUrl('cafe'));
+    const result = await shareText('AppTray Labs Cafe document checklist', text, getAppUrl('cafe'));
     setStatus(
       result === 'copied'
         ? 'Checklist copied.'

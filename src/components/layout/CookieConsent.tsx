@@ -9,11 +9,11 @@ export function CookieConsent(): React.JSX.Element | null {
   useEffect(() => {
     const update = () => setVisible(getConsent() === null);
     update();
-    window.addEventListener('softsutra:consent', update);
-    window.addEventListener('softsutra:consent-open', update);
+    window.addEventListener('AppTray Labs:consent', update);
+    window.addEventListener('AppTray Labs:consent-open', update);
     return () => {
-      window.removeEventListener('softsutra:consent', update);
-      window.removeEventListener('softsutra:consent-open', update);
+      window.removeEventListener('AppTray Labs:consent', update);
+      window.removeEventListener('AppTray Labs:consent-open', update);
     };
   }, []);
 

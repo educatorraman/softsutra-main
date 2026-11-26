@@ -16,13 +16,13 @@ export function LegalPage({
   documentKey: 'about' | 'privacy' | 'terms' | 'disclaimer';
 }): React.JSX.Element {
   const doc: LegalDocument = getLegal(documentKey);
-  usePageMeta(`${doc.title} | SoftSutra`, doc.lead, PATHS[documentKey]);
+  usePageMeta(`${doc.title} | AppTray Labs`, doc.lead, PATHS[documentKey]);
 
   return (
     <article className="pb-4">
       <header className="rounded-2xl border border-slate-200 bg-white/70 p-6 dark:border-slate-800 dark:bg-slate-900/40">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-600 dark:text-brand-50">
-          SoftSutra · Trust centre
+          AppTray Labs · Trust centre
         </p>
         <h1 className="mt-2 text-3xl font-extrabold tracking-tight">{doc.title}</h1>
         <p className="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-400">{resolveCopy(doc.lead)}</p>

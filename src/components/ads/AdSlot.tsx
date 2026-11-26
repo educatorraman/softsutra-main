@@ -27,8 +27,8 @@ export function AdSlot({ kind, className = '' }: AdSlotProps) {
   useEffect(() => {
     const update = () => setActive(isAdsConfigured(kind) && mayLoadPersonalizedAds() && !native);
     update();
-    window.addEventListener('softsutra:consent', update);
-    return () => window.removeEventListener('softsutra:consent', update);
+    window.addEventListener('AppTray Labs:consent', update);
+    return () => window.removeEventListener('AppTray Labs:consent', update);
   }, [kind, native]);
 
   useEffect(() => {

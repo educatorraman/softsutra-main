@@ -1,6 +1,6 @@
-# SoftSutra Hub — Final Protocol & Core Web Vitals Report
+# AppTray Labs Hub — Final Protocol & Core Web Vitals Report
 
-Scope: `projects/SoftSutra.online` (Vite 8 portal, version 4.0.0). All checks run locally on Termux. No git operations were performed.
+Scope: `projects/apptray.in` (Vite 8 portal, version 4.0.0). All checks run locally on Termux. No git operations were performed.
 
 ## 1. Verification results
 
@@ -12,12 +12,12 @@ Scope: `projects/SoftSutra.online` (Vite 8 portal, version 4.0.0). All checks ru
 | Unit tests | `npm test` → `vitest run` | Pass — 2 files, 6 tests (finance 4, network 2) |
 | Production build | `npm run build` → `vite build` | Pass — Vite 8.3.8, 2383 modules |
 | JSON / manifest syntax | `JSON.parse` on all `src/data/*.json`, `package.json`, `tsconfig.json`, `biome.json`, `vercel.json` | Pass |
-| Hardcoded domain scan | `grep -R ... src` | Only `src/config/domain.ts:9` (`softsutra.online` fallback) |
-| Forbidden placeholder scan | `TODO|FIXME|Lorem|coming soon|SoftSutra.online|SoftSutra.in` in `src` | 0 matches |
+| Hardcoded domain scan | `grep -R ... src` | Only `src/config/domain.ts:9` (`apptray.in` fallback) |
+| Forbidden placeholder scan | `TODO|FIXME|Lorem|coming soon|apptray.in|apptray.in` in `src` | 0 matches |
 | Native popup scan | `window.alert/confirm/prompt/open` in `src` | 0 matches |
 | Crawler output | `dist/ads.txt`, `dist/robots.txt`, `dist/sitemap.xml` | Present |
 | PWA output | `dist/manifest.webmanifest`, `dist/sw.js`, `dist/workbox-*.js`, 4 PNG icons | Present, 24 precache entries / 694.69 KiB |
-| Domain override test | `VITE_ROOT_DOMAIN=softsutra.in npx vite build --outDir /tmp/opencode/crawler-test` | `robots.txt` + all 6 sitemap `<loc>` values rewritten to `softsutra.in` |
+| Domain override test | `VITE_ROOT_DOMAIN=apptray.in npx vite build --outDir /tmp/opencode/crawler-test` | `robots.txt` + all 6 sitemap `<loc>` values rewritten to `apptray.in` |
 
 Build chucks:
 
@@ -35,7 +35,7 @@ dist/assets/*legal routes*          ~0.27 kB each (lazy)
 
 | Protocol rule | Implementation | Status |
 | --- | --- | --- |
-| Brand strictly `SoftSutra`; no domain in brand title | Brand strings in `index.html`, `siteCopy.json`, `ui.json`, schema `name` fields are bare `SoftSutra` | Pass |
+| Brand strictly `AppTray Labs`; no domain in brand title | Brand strings in `index.html`, `siteCopy.json`, `ui.json`, schema `name` fields are bare `AppTray Labs` | Pass |
 | Domain-agnostic runtime resolver | `src/config/domain.ts`: strips scheme/`www.`/subdomains/ports, defaults only on localhost/preview, honours `VITE_ROOT_DOMAIN`, derives `exam./jap./music./calculator./speed./cafe.<root>` | Pass |
 | Static crawler files domain-aware | `{{ROOT_DOMAIN}}` tokens in `public/robots.txt` + `public/sitemap.xml`, replaced at build by `crawlerDomain()` in `vite.config.ts` | Pass |
 | Strict logic / data split | All descriptions, features, guides, FAQs, legal copy, preview datasets and UI chrome live in `src/data/*.json`; `.tsx` files contain UI/logic only | Pass |
@@ -44,7 +44,7 @@ dist/assets/*legal routes*          ~0.27 kB each (lazy)
 | Mandatory self-verification | Lint, type check, tests, build, JSON parse and grep scans all executed after the final edit | Pass |
 | Back-button protection | `useBackGuard()` pushes history on overlay open, listens to `popstate` **and** Capacitor `App.addListener('backButton')`, guarded against double-close | Pass |
 | Visible top-left Back on subpages | `src/components/ui/BackLink.tsx`, rendered at the top of `<main>` on every non-root route | Pass |
-| Root double-back exit guard | `src/routes/root.tsx` shows "Press back again to exit SoftSutra" toast at `/` | Pass |
+| Root double-back exit guard | `src/routes/root.tsx` shows "Press back again to exit AppTray Labs" toast at `/` | Pass |
 | Instant offline persistence | `useStoredState()` → Dexie (`src/db/local.ts`), with try/catch fallback for private mode/quota | Pass |
 | Media continuity | `MusicWidget` uses `navigator.mediaSession` and persists track index + exact playback second in Dexie | Pass |
 | Global crash protection | `ErrorBoundary` wraps the entire app; storage, network and media calls are guarded | Pass |
@@ -101,7 +101,7 @@ google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
 
 3. `npm run build` and redeploy. No `.tsx` edit is required: `src/config/ads.ts` reads all five variables.
 
-Slot geometry (reserved before any script loads): leaderboard `min-height 90px`, in-article `280px`, sticky desktop sidebar `600px`, mobile bottom anchor `50px`. Every wrapper carries an `Advertisement` label; the mobile anchor has a 44px `[x]` hide control; a ≥24px gap separates ad frames from action buttons. Consent key `softsutra-consent`; change event `softsutra:consent`.
+Slot geometry (reserved before any script loads): leaderboard `min-height 90px`, in-article `280px`, sticky desktop sidebar `600px`, mobile bottom anchor `50px`. Every wrapper carries an `Advertisement` label; the mobile anchor has a 44px `[x]` hide control; a ≥24px gap separates ad frames from action buttons. Consent key `apptray-consent`; change event `AppTray Labs:consent`.
 
 ## 5. Core Web Vitals / CLS verification
 
@@ -128,16 +128,16 @@ Post-deploy confirmation still required: run Lighthouse (mobile + desktop) and P
 ## 7. Memory snapshot
 
 ```yaml
-[SOFTSUTRA_PROJECT_MEMORY_SNAPSHOT]
-Startup: "SoftSutra (Sarsa, Pehowa, Kurukshetra)"
+[APPTRAY_PROJECT_MEMORY_SNAPSHOT]
+Startup: "AppTray Labs (Sarsa, Pehowa, Kurukshetra)"
 Founder: "Raman Sharma"
 Contact_Email: "ramansarsa@zohomail.in"
-Active_Domain: "softsutra.online / softsutra.in — runtime-resolved; exam.|jap.|music.|calculator.|speed.|cafe.<root>"
-Active_Vercel_Project: "softsutra-speed-test (gt7r8qimh) / exam (gks20w54s) / softsutra-[app]"
+Active_Domain: "apptray.in / apptray.in — runtime-resolved; exam.|jap.|music.|calculator.|speed.|cafe.<root>"
+Active_Vercel_Project: "apptray-speed-test (gt7r8qimh) / exam (gks20w54s) / apptray-[app]"
 Dev_Environment: "Termux (Pre-logged in: Vercel CLI, GitHub CLI, Firebase CLI, code-server)"
 Architecture_Posture: "App-Convertible PWA (Capacitor/TWA Ready) + Dual Mobile/Desktop Ergonomics + Domain-Agnostic Build"
 Monetization_Posture:
-  - "AdSense Fast-Approval Ready (Privacy Policy, About Raman/SoftSutra, Contact, Terms)"
+  - "AdSense Fast-Approval Ready (Privacy Policy, About Raman/AppTrayLabs, Contact, Terms)"
   - "CLS-Protected Ad Containers (Reserved 90px / 280px / 600px / 50px min-heights)"
   - "Non-Intrusive Layout: Desktop Sticky Rail + Mobile Sticky Bottom Banner with [x] toggle"
   - "Consent-gated personalized ads; ads inert until ca-pub ID + slot IDs are pasted"

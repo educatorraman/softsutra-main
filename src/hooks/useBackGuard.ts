@@ -27,7 +27,7 @@ export function useBackGuard(open: boolean, close: () => void): void {
       closed.current = false;
       return;
     }
-    const marker = { softsutraOverlay: true };
+    const marker = { AppTray LabsOverlay: true };
     window.history.pushState(marker, '', window.location.href);
     const onPop = () => {
       if (closed.current) return;
@@ -47,7 +47,7 @@ export function useBackGuard(open: boolean, close: () => void): void {
     return () => {
       window.removeEventListener('popstate', onPop);
       listener?.remove();
-      if (window.history.state?.softsutraOverlay) window.history.back();
+      if (window.history.state?.apptrayOverlay) window.history.back();
     };
   }, [open, close]);
 }

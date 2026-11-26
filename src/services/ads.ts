@@ -21,7 +21,7 @@ export function loadAdsense(): Promise<void> {
 
   loader = new Promise<void>((resolve) => {
     try {
-      const existing = document.querySelector<HTMLScriptElement>('script[data-softsutra-ads]');
+      const existing = document.querySelector<HTMLScriptElement>('script[data-apptray-ads]');
       if (existing) {
         resolve();
         return;
@@ -29,7 +29,7 @@ export function loadAdsense(): Promise<void> {
       const script = document.createElement('script');
       script.async = true;
       script.crossOrigin = 'anonymous';
-      script.dataset.softsutraAds = 'true';
+      script.dataset.apptrayAds = 'true';
       script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${encodeURIComponent(adsenseClient)}`;
       script.addEventListener('load', () => resolve(), { once: true });
       script.addEventListener('error', () => resolve(), { once: true });

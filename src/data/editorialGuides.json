@@ -60,7 +60,7 @@
         "heading": "What a trustworthy transfer actually does",
         "paragraphs": [
           "Look for four properties. First, a clear identity gate: a phone-based one-time code or equivalent check before a shop can open a record. Second, transport protection: HTTPS and signed upload requests so a file cannot be silently redirected to an unauthorised bucket. Third, minimisation: only the documents named in the checklist are requested. Fourth, an audit trail: timestamps, item status and version history so both sides can agree on what was received.",
-          "SoftSutra Cafe is built around those properties. Its wizard autosaves into local IndexedDB, files are compressed before upload, an outbox retries when connectivity returns, and presigned uploads are validated for type and size. Rate limits and bot checks protect the endpoints. OTP delivery still depends on the operator configuring a provider, so ask the café how codes are delivered before relying on the flow."
+          "AppTray Labs Cafe is built around those properties. Its wizard autosaves into local IndexedDB, files are compressed before upload, an outbox retries when connectivity returns, and presigned uploads are validated for type and size. Rate limits and bot checks protect the endpoints. OTP delivery still depends on the operator configuring a provider, so ask the café how codes are delivered before relying on the flow."
         ],
         "bullets": [
           "Use original documents only where an original is explicitly required.",
@@ -97,7 +97,7 @@
         "heading": "Practice the pattern, not just the syllabus",
         "paragraphs": [
           "Two candidates can study the same chapters and perform very differently because one has practised the actual decision load of the exam. Section tabs, a question palette and a countdown change how you allocate attention. Regular timed sets teach you which questions deserve the first pass and which should be marked for review.",
-          "SoftSutra Exam organises practice into 90 daily sets across national and state registries. A day-wise structure helps because it turns preparation into a routine rather than a mood. Use the current pattern for your target exam and remember that historical sets are practice material, not a guarantee of the live paper."
+          "AppTray Labs Exam organises practice into 90 daily sets across national and state registries. A day-wise structure helps because it turns preparation into a routine rather than a mood. Use the current pattern for your target exam and remember that historical sets are practice material, not a guarantee of the live paper."
         ]
       },
       {
@@ -192,7 +192,7 @@
         "heading": "Why low-ad media matters",
         "paragraphs": [
           "Interruptions are costly because the mind needs time to return to the task after each break. A player that inserts a break at every transition changes the texture of the work, even when each interruption is short. Low-ad listening is not about removing every commercial message from the internet; it is about placing them where they do not sever a session.",
-          "SoftSutra Music is designed around uninterrupted playback, crossfade between tracks, a sleep timer and lock-screen controls. Its offline vault helps when a network would otherwise force a buffering pause. If you study with audio, choose a playlist once, start it, and resist the urge to browse while it plays."
+          "AppTray Labs Music is designed around uninterrupted playback, crossfade between tracks, a sleep timer and lock-screen controls. Its offline vault helps when a network would otherwise force a buffering pause. If you study with audio, choose a playlist once, start it, and resist the urge to browse while it plays."
         ],
         "bullets": [
           "Pick the playlist before the work block starts.",

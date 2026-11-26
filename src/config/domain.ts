@@ -6,7 +6,7 @@
 export const APP_KEYS = ['exam', 'jap', 'music', 'calculator', 'speed', 'cafe'] as const;
 export type AppKey = (typeof APP_KEYS)[number];
 
-const DEFAULT_ROOT_DOMAIN = 'softsutra.online';
+const DEFAULT_ROOT_DOMAIN = 'apptray.in';
 const SUBDOMAINS: Record<AppKey, string> = {
   exam: 'exam',
   jap: 'jap',

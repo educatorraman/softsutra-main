@@ -1,8 +1,8 @@
 {
   "home": {
-    "metaTitle": "SoftSutra | Privacy-first digital utility ecosystem",
-    "metaDescription": "Explore six fast, offline-ready SoftSutra apps for exams, EMI and GST, network diagnostics, jap counting, focused music and secure document transfer.",
-    "ecosystemKicker": "The SoftSutra ecosystem",
+    "metaTitle": "AppTray Labs | Privacy-first digital utility ecosystem",
+    "metaDescription": "Explore six fast, offline-ready AppTray Labs apps for exams, EMI and GST, network diagnostics, jap counting, focused music and secure document transfer.",
+    "ecosystemKicker": "The AppTray Labs ecosystem",
     "ecosystemTitle": "Six focused apps, one trusted portal",
     "ecosystemDescription": "Each subdomain has its own performance budget and offline cache. Launch directly on the parent domain that is currently serving this site.",
     "previewsKicker": "Try it here, then go deeper",
@@ -47,7 +47,7 @@
     "consentLink": "Read our policy",
     "consentEssential": "Essential only",
     "consentPersonalized": "Accept personalised ads",
-    "install": "Install SoftSutra for offline-ready, one-tap access.",
+    "install": "Install AppTray Labs for offline-ready, one-tap access.",
     "installAction": "Install",
     "installDismiss": "Dismiss install prompt",
     "adLabel": "Advertisement",
@@ -57,7 +57,7 @@
     "adGeometry": "Geometry fixed · no layout shift",
     "errorTitle": "Something paused here",
     "errorText": "The portal hit an unexpected error. Your saved widget data is intact. Reload to continue.",
-    "errorAction": "Reload SoftSutra",
+    "errorAction": "Reload AppTray Labs",
     "back": "Back",
     "sectionsLabel": "Sections"
   }

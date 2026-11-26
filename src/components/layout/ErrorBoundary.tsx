@@ -14,7 +14,7 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, State> {
 
   componentDidCatch(error: Error, info: ErrorInfo): void {
     try {
-      console.error('SoftSutra UI error', error, info.componentStack);
+      console.error('AppTray Labs UI error', error, info.componentStack);
     } catch {
       /* logging unavailable */
     }

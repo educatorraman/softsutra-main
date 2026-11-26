@@ -9,7 +9,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 function crawlerDomain(rootDomain: string): Plugin {
   let outDir = 'dist';
   return {
-    name: 'softsutra-crawler-domain',
+    name: 'apptray-crawler-domain',
     apply: 'build',
     configResolved(config) {
       outDir = path.resolve(config.root, config.build.outDir);
@@ -33,7 +33,7 @@ export default defineConfig(({ mode }) => {
       .replace(/^https?:\/\//, '')
       .replace(/^www\./, '')
       .replace(/\/.*$/, '')
-      .replace(/:\d+$/, '') || 'softsutra.online';
+      .replace(/:\d+$/, '') || 'apptray.in';
 
   return {
     base: './',
@@ -47,8 +47,8 @@ export default defineConfig(({ mode }) => {
         includeAssets: ['favicon.svg', 'icons/*.png'],
         manifest: {
           id: './',
-          name: 'SoftSutra',
-          short_name: 'SoftSutra',
+          name: 'AppTray Labs',
+          short_name: 'AppTray Labs',
           description:
             'Fast, private, offline-ready utilities for exams, finance, network diagnostics, music and secure document transfer.',
           lang: 'en',
@@ -85,7 +85,7 @@ export default defineConfig(({ mode }) => {
               urlPattern: /^https:\/\/pagead2\.googlesyndication\.com\//i,
               handler: 'NetworkFirst',
               options: {
-                cacheName: 'softsutra-ad-scripts',
+                cacheName: 'apptray-ad-scripts',
                 expiration: { maxEntries: 8, maxAgeSeconds: 86400 },
               },
             },

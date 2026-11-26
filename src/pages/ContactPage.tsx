@@ -22,7 +22,7 @@ const EMPTY: Inquiry = { name: '', email: '', category: 'product', message: '', 
 
 export function ContactPage(): JSX.Element {
   const doc = getLegal('contact') as LegalData['contact'];
-  usePageMeta('Contact SoftSutra | Support & Partnerships', doc.lead, '/contact');
+  usePageMeta('Contact AppTray Labs | Support & Partnerships', doc.lead, '/contact');
   const [form, setForm] = useState<Inquiry>(EMPTY);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<string | null>(null);
@@ -50,7 +50,7 @@ export function ContactPage(): JSX.Element {
     <article>
       <header className="rounded-2xl border border-slate-200 bg-white/70 p-6 dark:border-slate-800 dark:bg-slate-900/40">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-600 dark:text-brand-50">
-          SoftSutra · Contact desk
+          AppTray Labs · Contact desk
         </p>
         <h1 className="mt-2 text-3xl font-extrabold tracking-tight">{doc.title}</h1>
         <p className="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-400">{resolveCopy(doc.lead)}</p>

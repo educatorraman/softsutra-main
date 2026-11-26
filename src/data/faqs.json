@@ -14,7 +14,7 @@
     },
     {
       "question": "Does the preview save my loan inputs?",
-      "answer": "Yes. Inputs are stored in IndexedDB on your device so a refresh does not erase them. You can clear them by removing site data for SoftSutra in your browser settings."
+      "answer": "Yes. Inputs are stored in IndexedDB on your device so a refresh does not erase them. You can clear them by removing site data for AppTray Labs in your browser settings."
     },
     {
       "question": "Can I rely on the land area estimate for a property deed?",
@@ -45,7 +45,7 @@
   ],
   "exam": [
     {
-      "question": "Is SoftSutra Exam affiliated with any government exam authority?",
+      "question": "Is AppTray Labs Exam affiliated with any government exam authority?",
       "answer": "No. It is an independent practice platform. Mock patterns and questions are educational simulations and do not reproduce a live examination or predict cut-offs."
     },
     {
