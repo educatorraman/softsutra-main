@@ -32,17 +32,17 @@ function RootLayout(): React.JSX.Element {
 
   useEffect(() => {
     window.history.replaceState(
-      { ...(window.history.state as object | null), AppTray LabsRoot: true },
+      { ...(window.history.state as object | null), AppTrayLabsRoot: true },
       '',
       window.location.href,
     );
     const onPop = (event: PopStateEvent) => {
       if (
         window.location.pathname === '/' &&
-        !(event.state as { AppTray LabsRoot?: boolean } | null)?.apptrayRoot
+        !(event.state as { AppTrayLabsRoot?: boolean } | null)?.AppTrayLabsRoot
       ) {
         setToast('Press back again to exit AppTray Labs');
-        window.history.pushState({ AppTray LabsRoot: true }, '', window.location.href);
+        window.history.pushState({ AppTrayLabsRoot: true }, '', window.location.href);
         window.setTimeout(() => setToast(null), 2200);
       }
     };

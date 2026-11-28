@@ -27,7 +27,7 @@ export function useBackGuard(open: boolean, close: () => void): void {
       closed.current = false;
       return;
     }
-    const marker = { AppTray LabsOverlay: true };
+    const marker = { AppTrayLabsOverlay: true };
     window.history.pushState(marker, '', window.location.href);
     const onPop = () => {
       if (closed.current) return;

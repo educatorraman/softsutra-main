@@ -6,3 +6,6 @@ dist/
 .vercel/
 .vercel
 .env*
+.env.*
+*.credentials.env
+.apptray_credentials.env
